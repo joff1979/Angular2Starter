@@ -1,0 +1,1646 @@
+
+> angular2-webpack-starter@5.1.1 start C:\Users\Jamie\angular2-webpack-starter
+> npm run server:dev
+
+
+> angular2-webpack-starter@5.1.1 server:dev C:\Users\Jamie\angular2-webpack-starter
+> webpack-dev-server --config config/webpack.dev.js --progress --profile --watch --content-base src/
+
+
+Project is running at http://localhost:3000/
+webpack output is served from /
+Content not from webpack is served from C:\Users\Jamie\angular2-webpack-starter\src
+404s will fallback to /index.html
+[default] Checking started in a separate process...
+Hash: b6303f6e8f4b58d2eb27
+Version: webpack 2.1.0-beta.27
+Time: 8098ms
+                                 Asset       Size  Chunks             Chunk Names
+      assets/icon/apple-icon-60x60.png    3.56 kB          [emitted]  
+                            0.chunk.js    2.29 kB       0  [emitted]  
+                      vendor.bundle.js    3.01 MB       2  [emitted]  vendor
+                        main.bundle.js    22.2 kB       3  [emitted]  main
+                   polyfills.bundle.js     505 kB       4  [emitted]  polyfills
+                                 0.map    2.14 kB       0  [emitted]  
+                                 1.map  363 bytes       1  [emitted]  
+                            vendor.map    2.98 MB       2  [emitted]  vendor
+                              main.map    21.4 kB       3  [emitted]  main
+                         polyfills.map     626 kB       4  [emitted]  polyfills
+                   assets/css/.gitkeep   15 bytes          [emitted]  
+                     assets/humans.txt  268 bytes          [emitted]  
+    assets/icon/android-icon-36x36.png     2.3 kB          [emitted]  
+  assets/icon/android-icon-144x144.png    8.43 kB          [emitted]  
+  assets/icon/android-icon-192x192.png    9.71 kB          [emitted]  
+    assets/icon/android-icon-48x48.png    2.92 kB          [emitted]  
+    assets/icon/apple-icon-114x114.png    6.55 kB          [emitted]  
+                      assets/data.json   33 bytes          [emitted]  
+    assets/icon/android-icon-96x96.png     5.6 kB          [emitted]  
+    assets/icon/apple-icon-120x120.png    6.92 kB          [emitted]  
+      assets/icon/apple-icon-57x57.png     3.4 kB          [emitted]  
+    assets/icon/android-icon-72x72.png    4.23 kB          [emitted]  
+    assets/icon/apple-icon-144x144.png    8.43 kB          [emitted]  
+    assets/icon/apple-icon-152x152.png    8.99 kB          [emitted]  
+                            1.chunk.js  159 bytes       1  [emitted]  
+      assets/icon/apple-icon-76x76.png    4.46 kB          [emitted]  
+    assets/icon/apple-icon-180x180.png      11 kB          [emitted]  
+            assets/icon/apple-icon.png    10.3 kB          [emitted]  
+      assets/icon/apple-icon-72x72.png    4.23 kB          [emitted]  
+assets/icon/apple-icon-precomposed.png    10.3 kB          [emitted]  
+         assets/icon/browserconfig.xml  282 bytes          [emitted]  
+         assets/icon/favicon-96x96.png     5.6 kB          [emitted]  
+         assets/icon/favicon-16x16.png    1.52 kB          [emitted]  
+         assets/icon/favicon-32x32.png    2.07 kB          [emitted]  
+       assets/icon/ms-icon-144x144.png    8.43 kB          [emitted]  
+               assets/icon/favicon.ico    1.15 kB          [emitted]  
+           assets/img/angular-logo.png      19 kB          [emitted]  
+       assets/icon/ms-icon-310x310.png    24.1 kB          [emitted]  
+         assets/icon/ms-icon-70x70.png    4.12 kB          [emitted]  
+       assets/icon/ms-icon-150x150.png    8.88 kB          [emitted]  
+    assets/img/angularclass-avatar.png    32.8 kB          [emitted]  
+      assets/img/angularclass-logo.png    36.7 kB          [emitted]  
+                  assets/manifest.json  689 bytes          [emitted]  
+                     assets/robots.txt   34 bytes          [emitted]  
+       assets/mock-data/mock-data.json   25 bytes          [emitted]  
+              assets/service-worker.js   45 bytes          [emitted]  
+                            humans.txt  268 bytes          [emitted]  
+                            robots.txt   34 bytes          [emitted]  
+                            index.html    2.77 kB          [emitted]  
+chunk    {0} 0.chunk.js, 0.map 2.06 kB {3} [rendered]
+  [774] ./src/app/+detail/index.ts 1.18 kB {0} [built]
+        [] -> factory:728ms building:771ms dependencies:7ms = 1506ms
+  [776] ./src/app/+detail/detail.component.ts 885 bytes {0} [built]
+        [] -> factory:537ms building:336ms dependencies:1ms = 874ms
+chunk    {1} 1.chunk.js, 1.map 43 bytes {3} [rendered]
+  [775] ./src/assets/mock-data/mock-data.json 43 bytes {1} [built]
+        [] -> factory:1434ms building:338ms = 1772ms
+chunk    {2} vendor.bundle.js, vendor.map (vendor) 2.46 MB {4} [initial] [rendered]
+    [0] ./~/@angular/core/index.js 355 bytes {2} [built]
+        [] -> factory:551ms building:167ms = 718ms
+    [1] ./~/@angular/core/src/facade/lang.js 4.14 kB {2} [built]
+        [] -> factory:721ms building:598ms dependencies:1ms = 1320ms
+    [6] ./~/@angular/compiler/src/output/output_ast.js 39.2 kB {2} [built]
+        [] -> factory:375ms building:136ms dependencies:0ms = 511ms
+   [13] ./~/rxjs/Observable.js 6.04 kB {2} [built]
+        [] -> factory:493ms building:463ms = 956ms
+   [14] ./~/@angular/compiler/src/identifiers.js 14.5 kB {2} [built]
+        [] -> factory:406ms building:151ms dependencies:2ms = 559ms
+   [16] ./~/@angular/compiler/src/private_import_core.js 2.46 kB {2} [built]
+        [] -> factory:348ms building:153ms dependencies:1ms = 502ms
+   [18] ./~/@angular/platform-browser/src/dom/dom_adapter.js 1.25 kB {2} [built]
+        [] -> factory:723ms building:557ms = 1280ms
+   [19] ./~/@angular/core/src/facade/collection.js 3.3 kB {2} [built]
+        [] -> factory:713ms building:599ms dependencies:511ms = 1823ms
+   [22] ./~/@angular/compiler/src/compile_metadata.js 22.8 kB {2} [built]
+        [] -> factory:674ms building:225ms dependencies:363ms = 1262ms
+   [24] ./~/jquery/dist/jquery.js 267 kB {2} [built]
+        [] -> factory:572ms building:316ms = 888ms
+   [25] ./~/@angular/core/src/facade/errors.js 2.37 kB {2} [built]
+        [] -> factory:615ms building:624ms = 1239ms
+   [31] ./~/@angular/compiler/src/parse_util.js 3.05 kB {2} [built]
+        [] -> factory:681ms building:284ms dependencies:0ms = 965ms
+   [32] ./~/@angular/core/src/di.js 711 bytes {2} [built]
+        [] -> factory:301ms building:598ms = 899ms
+   [33] ./~/@angular/forms/src/directives/control_value_accessor.js 518 bytes {2} [built]
+        [] -> factory:460ms building:845ms dependencies:1ms = 1306ms
+   [36] ./~/rxjs/Subscriber.js 8.87 kB {2} [built]
+        [] -> factory:328ms building:987ms dependencies:335ms = 1650ms
+   [37] ./~/@angular/compiler/src/compiler_util/identifier_util.js 2.27 kB {2} [built]
+        [] -> factory:298ms building:316ms dependencies:1ms = 615ms
+   [38] ./~/@angular/compiler/src/ml_parser/interpolation_config.js 860 bytes {2} [built]
+        [] -> factory:684ms building:349ms dependencies:254ms = 1287ms
+   [39] ./~/@angular/compiler/src/template_parser/template_ast.js 10.5 kB {2} [built]
+        [] -> factory:682ms building:351ms = 1033ms
+   [40] ./~/@angular/forms/src/validators.js 5.4 kB {2} [built]
+        [] -> factory:329ms building:674ms dependencies:498ms = 1501ms
+   [41] ./~/@angular/router/src/shared.js 1.88 kB {2} [built]
+        [] -> factory:308ms building:690ms = 998ms
+   [45] ./~/@angular/compiler/src/util.js 3.04 kB {2} [built]
+        [] -> factory:377ms building:151ms dependencies:1ms = 529ms
+   [46] ./~/@angular/core/src/facade/async.js 4.09 kB {2} [built]
+        [] -> factory:464ms building:801ms dependencies:286ms = 1551ms
+   [47] ./~/@angular/forms/src/directives/control_container.js 1.42 kB {2} [built]
+        [] -> factory:459ms building:845ms dependencies:0ms = 1304ms
+   [48] ./~/@angular/router/src/utils/collection.js 3.31 kB {2} [built]
+        [] -> factory:859ms building:730ms dependencies:118ms = 1707ms
+   [53] ./~/exports-loader?Util!./~/bootstrap/js/dist/util.js 4.31 kB {2} [built]
+        [] -> factory:592ms building:16ms dependencies:0ms = 608ms
+   [55] ./~/@angular/common/src/pipes/invalid_pipe_argument_error.js 923 bytes {2} [built]
+        [] -> factory:660ms building:599ms dependencies:0ms = 1259ms
+   [56] ./~/@angular/compiler/src/ml_parser/ast.js 3.07 kB {2} [built]
+        [] -> factory:305ms building:155ms = 460ms
+   [57] ./~/@angular/compiler/src/schema/element_schema_registry.js 389 bytes {2} [built]
+        [] -> factory:685ms building:390ms = 1075ms
+   [58] ./~/@angular/forms/src/directives/shared.js 6.24 kB {2} [built]
+        [] -> factory:539ms building:795ms dependencies:182ms = 1516ms
+   [59] ./~/@angular/http/src/enums.js 3.04 kB {2} [built]
+        [] -> factory:329ms building:709ms = 1038ms
+   [65] ./~/rxjs/util/root.js 471 bytes {2} [built]
+        [] -> factory:465ms building:953ms dependencies:0ms = 1418ms
+   [67] ./~/@angular/compiler/src/directive_wrapper_compiler.js 19 kB {2} [built]
+        [] -> factory:680ms building:328ms dependencies:256ms = 1264ms
+   [68] ./~/@angular/compiler/src/ml_parser/tags.js 7.19 kB {2} [built]
+        [] -> factory:250ms building:192ms = 442ms
+   [69] ./~/@angular/compiler/src/view_compiler/util.js 3.28 kB {2} [built]
+        [] -> factory:165ms building:89ms dependencies:2ms = 256ms
+   [70] ./~/@angular/forms/src/directives/ng_control.js 1.61 kB {2} [built]
+        [] -> factory:461ms building:850ms dependencies:0ms = 1311ms
+   [71] ./~/@angular/router/src/url_tree.js 17.9 kB {2} [built]
+        [] -> factory:309ms building:684ms dependencies:802ms = 1795ms
+   [79] ./~/rxjs/observable/of.js 149 bytes {2} [built]
+        [] -> factory:851ms building:718ms = 1569ms
+   [80] ./~/@angular/compiler/src/config.js 3.48 kB {2} [built]
+        [] -> factory:673ms building:179ms dependencies:1ms = 853ms
+   [81] ./~/@angular/compiler/src/ml_parser/parser.js 16.2 kB {2} [built]
+        [] -> factory:243ms building:202ms dependencies:3ms = 448ms
+   [82] ./~/@angular/core/src/util/decorators.js 9.74 kB {2} [built]
+        [] -> factory:620ms building:607ms dependencies:0ms = 1227ms
+   [83] ./~/@angular/platform-browser/index.js 379 bytes {2} [built]
+        [] -> factory:548ms building:128ms = 676ms
+   [84] ./~/@angular/platform-browser/src/dom/events/event_manager.js 2.67 kB {2} [built]
+        [] -> factory:463ms building:767ms dependencies:294ms = 1524ms
+   [85] ./~/@angular/router/src/router_state.js 14.9 kB {2} [built]
+        [] -> factory:307ms building:676ms dependencies:812ms = 1795ms
+   [88] ./~/rxjs/operator/mergeMap.js 6.38 kB {2} [built]
+        [] -> factory:565ms building:526ms = 1091ms
+   [92] ./~/@angular/common/index.js 801 bytes {2} [built]
+        [] -> factory:559ms building:157ms = 716ms
+   [93] ./~/@angular/compiler/src/compiler_util/expression_converter.js 25.4 kB {2} [built]
+        [] -> factory:306ms building:310ms dependencies:2ms = 618ms
+   [94] ./~/@angular/compiler/src/expression_parser/parser.js 32.9 kB {2} [built]
+        [] -> factory:687ms building:414ms dependencies:3ms = 1104ms
+   [95] ./~/@angular/compiler/src/url_resolver.js 11.4 kB {2} [built]
+        [] -> factory:675ms building:237ms dependencies:2ms = 914ms
+   [96] ./~/@angular/core/src/di/injector.js 1.89 kB {2} [built]
+        [] -> factory:622ms building:624ms dependencies:1ms = 1247ms
+   [97] ./~/@angular/core/src/linker/compiler.js 3.52 kB {2} [built]
+        [] -> factory:618ms building:623ms dependencies:1ms = 1242ms
+   [98] ./~/@angular/forms/src/directives/abstract_form_group_directive.js 2.8 kB {2} [built]
+        [] -> factory:458ms building:845ms dependencies:271ms = 1574ms
+   [99] ./~/@angular/forms/src/directives/ng_form.js 6.77 kB {2} [built]
+        [] -> factory:463ms building:856ms dependencies:255ms = 1574ms
+  [100] ./~/@angular/forms/src/directives/radio_control_value_accessor.js 6.17 kB {2} [built]
+        [] -> factory:464ms building:885ms dependencies:3ms = 1352ms
+  [101] ./~/@angular/forms/src/directives/reactive_directives/form_group_directive.js 8.11 kB {2} [built]
+        [] -> factory:468ms building:911ms dependencies:415ms = 1794ms
+  [102] ./~/@angular/forms/src/directives/reactive_directives/form_group_name.js 9.09 kB {2} [built]
+        [] -> factory:469ms building:941ms dependencies:384ms = 1794ms
+  [103] ./~/@angular/http/src/headers.js 5.66 kB {2} [built]
+        [] -> factory:329ms building:692ms = 1021ms
+  [104] ./~/@angular/http/src/interfaces.js 977 bytes {2} [built]
+        [] -> factory:331ms building:721ms = 1052ms
+  [105] ./~/@angular/router/src/router.js 40.7 kB {2} [built]
+        [] -> factory:305ms building:631ms dependencies:855ms = 1791ms
+  [106] ./~/@angular/router/src/router_config_loader.js 2.13 kB {2} [built]
+        [] -> factory:615ms building:804ms dependencies:5ms = 1424ms
+  [114] ./~/rxjs/operator/map.js 3.3 kB {2} [built]
+        [] -> factory:564ms building:529ms = 1093ms
+  [118] ./~/@angular/common/src/localization.js 16.2 kB {2} [built]
+        [] -> factory:399ms building:541ms dependencies:1ms = 941ms
+  [119] ./~/@angular/common/src/location/location_strategy.js 1.7 kB {2} [built]
+        [] -> factory:297ms building:552ms dependencies:1ms = 850ms
+  [120] ./~/@angular/compiler/index.js 2.26 kB {2} [built]
+        [] -> factory:1234ms building:742ms = 1976ms
+  [121] ./~/@angular/compiler/src/expression_parser/lexer.js 13.3 kB {2} [built]
+        [] -> factory:687ms building:423ms dependencies:189ms = 1299ms
+  [122] ./~/@angular/compiler/src/ml_parser/html_parser.js 1.47 kB {2} [built]
+        [] -> factory:684ms building:369ms dependencies:240ms = 1293ms
+  [123] ./~/@angular/compiler/src/selector.js 13.7 kB {2} [built]
+        [] -> factory:681ms building:348ms = 1029ms
+  [124] ./~/@angular/compiler/src/template_parser/template_parser.js 38.6 kB {2} [built]
+        [] -> factory:683ms building:362ms dependencies:247ms = 1292ms
+  [125] ./~/@angular/compiler/src/view_compiler/constants.js 2.73 kB {2} [built]
+        [] -> factory:165ms building:95ms dependencies:1ms = 261ms
+  [126] ./~/@angular/compiler/src/view_compiler/view_compiler.js 2.1 kB {2} [built]
+        [] -> factory:689ms building:425ms dependencies:2ms = 1116ms
+  [127] ./~/@angular/core/src/application_tokens.js 1.82 kB {2} [built]
+        [] -> factory:303ms building:598ms dependencies:0ms = 901ms
+  [128] ./~/@angular/core/src/change_detection/change_detection.js 1.64 kB {2} [built]
+        [] -> factory:618ms building:706ms dependencies:2ms = 1326ms
+  [129] ./~/@angular/core/src/change_detection/change_detection_util.js 2.61 kB {2} [built]
+        [] -> factory:618ms building:727ms dependencies:1ms = 1346ms
+  [130] ./~/@angular/core/src/change_detection/constants.js 2.66 kB {2} [built]
+        [] -> factory:619ms building:728ms dependencies:0ms = 1347ms
+  [131] ./~/@angular/core/src/di/metadata.js 1.08 kB {2} [built]
+        [] -> factory:621ms building:602ms dependencies:0ms = 1223ms
+  [132] ./~/@angular/core/src/linker/component_factory_resolver.js 2.2 kB {2} [built]
+        [] -> factory:619ms building:646ms dependencies:1ms = 1266ms
+  [133] ./~/@angular/core/src/linker/element_ref.js 1.04 kB {2} [built]
+        [] -> factory:616ms building:643ms = 1259ms
+  [134] ./~/@angular/core/src/linker/view_type.js 762 bytes {2} [built]
+        [] -> factory:622ms building:751ms = 1373ms
+  [135] ./~/@angular/core/src/linker/view_utils.js 20.4 kB {2} [built]
+        [] -> factory:617ms building:715ms dependencies:3ms = 1335ms
+  [136] ./~/@angular/core/src/profile/profile.js 2.98 kB {2} [built]
+        [] -> factory:464ms building:799ms = 1263ms
+  [137] ./~/@angular/forms/src/directives/checkbox_value_accessor.js 2.23 kB {2} [built]
+        [] -> factory:459ms building:849ms dependencies:2ms = 1310ms
+  [138] ./~/@angular/forms/src/directives/default_value_accessor.js 2.65 kB {2} [built]
+        [] -> factory:461ms building:851ms dependencies:2ms = 1314ms
+  [139] ./~/@angular/forms/src/directives/ng_model_group.js 3.26 kB {2} [built]
+        [] -> factory:464ms building:889ms dependencies:440ms = 1793ms
+  [140] ./~/@angular/forms/src/directives/reactive_errors.js 2.8 kB {2} [built]
+        [] -> factory:427ms building:737ms = 1164ms
+  [141] ./~/@angular/forms/src/directives/select_control_value_accessor.js 7.26 kB {2} [built]
+        [] -> factory:465ms building:893ms dependencies:142ms = 1500ms
+  [142] ./~/@angular/forms/src/directives/select_multiple_control_value_accessor.js 7.4 kB {2} [built]
+        [] -> factory:466ms building:897ms dependencies:137ms = 1500ms
+  [143] ./~/@angular/forms/src/model.js 49.7 kB {2} [built]
+        [] -> factory:328ms building:707ms dependencies:538ms = 1573ms
+  [144] ./~/@angular/http/src/base_response_options.js 5.68 kB {2} [built]
+        [] -> factory:328ms building:712ms dependencies:2ms = 1042ms
+  [145] ./~/@angular/http/src/http_utils.js 1.51 kB {2} [built]
+        [] -> factory:553ms building:790ms dependencies:1ms = 1344ms
+  [146] ./~/@angular/http/src/url_search_params.js 6.66 kB {2} [built]
+        [] -> factory:333ms building:722ms = 1055ms
+  [147] ./~/@angular/platform-browser/src/dom/dom_tokens.js 644 bytes {2} [built]
+        [] -> factory:461ms building:791ms dependencies:1ms = 1253ms
+  [148] ./~/@angular/router/src/router_outlet_map.js 823 bytes {2} [built]
+        [] -> factory:306ms building:670ms = 976ms
+  [159] ./~/rxjs/Subject.js 5.33 kB {2} [built]
+        [] -> factory:606ms building:762ms dependencies:337ms = 1705ms
+  [162] ./~/tether/dist/js/tether.js 56.4 kB {2} [built]
+        [] -> factory:548ms building:378ms = 926ms
+  [163] ./~/@angular/router/index.js 358 bytes {2} [built]
+        [] -> factory:561ms building:159ms = 720ms
+  [164] ./~/@angular/common/src/location/location.js 6.63 kB {2} [built]
+        [] -> factory:299ms building:554ms dependencies:1ms = 854ms
+  [165] ./~/@angular/common/src/location/platform_location.js 1.98 kB {2} [built]
+        [] -> factory:297ms building:540ms = 837ms
+  [166] ./~/@angular/compiler/src/animation/animation_parser.js 23.9 kB {2} [built]
+        [] -> factory:690ms building:435ms dependencies:139ms = 1264ms
+  [167] ./~/@angular/compiler/src/chars.js 1.95 kB {2} [built]
+        [] -> factory:198ms building:205ms = 403ms
+  [168] ./~/@angular/compiler/src/directive_normalizer.js 10.3 kB {2} [built]
+        [] -> factory:678ms building:281ms dependencies:303ms = 1262ms
+  [169] ./~/@angular/compiler/src/directive_resolver.js 7.63 kB {2} [built]
+        [] -> factory:676ms building:244ms dependencies:344ms = 1264ms
+  [170] ./~/@angular/compiler/src/expression_parser/ast.js 18.5 kB {2} [built]
+        [] -> factory:199ms building:278ms dependencies:20ms = 497ms
+  [171] ./~/@angular/compiler/src/i18n/digest.js 6.27 kB {2} [built]
+        [] -> factory:190ms building:55ms = 245ms
+  [172] ./~/@angular/compiler/src/i18n/parse_util.js 765 bytes {2} [built]
+        [] -> factory:62ms building:116ms dependencies:0ms = 178ms
+  [173] ./~/@angular/compiler/src/metadata_resolver.js 43.1 kB {2} [built]
+        [] -> factory:679ms building:297ms dependencies:288ms = 1264ms
+  [174] ./~/@angular/compiler/src/ml_parser/html_tags.js 5.84 kB {2} [built]
+        [] -> factory:264ms building:175ms dependencies:1ms = 440ms
+  [175] ./~/@angular/compiler/src/ng_module_compiler.js 11.1 kB {2} [built]
+        [] -> factory:679ms building:338ms dependencies:273ms = 1290ms
+  [176] ./~/@angular/compiler/src/ng_module_resolver.js 1.6 kB {2} [built]
+        [] -> factory:678ms building:245ms dependencies:340ms = 1263ms
+  [177] ./~/@angular/compiler/src/output/abstract_emitter.js 14.8 kB {2} [built]
+        [] -> factory:211ms building:241ms dependencies:1ms = 453ms
+  [178] ./~/@angular/compiler/src/output/class_builder.js 1.42 kB {2} [built]
+        [] -> factory:282ms building:139ms dependencies:1ms = 422ms
+  [179] ./~/@angular/compiler/src/pipe_resolver.js 1.88 kB {2} [built]
+        [] -> factory:677ms building:238ms dependencies:3ms = 918ms
+  [180] ./~/@angular/compiler/src/resource_loader.js 529 bytes {2} [built]
+        [] -> factory:675ms building:234ms = 909ms
+  [181] ./~/@angular/compiler/src/style_compiler.js 4.23 kB {2} [built]
+        [] -> factory:682ms building:341ms dependencies:237ms = 1260ms
+  [182] ./~/@angular/compiler/src/view_compiler/compile_method.js 3.03 kB {2} [built]
+        [] -> factory:163ms building:94ms dependencies:1ms = 258ms
+  [183] ./~/@angular/compiler/src/view_compiler/deps.js 910 bytes {2} [built]
+        [] -> factory:188ms building:247ms = 435ms
+  [184] ./~/@angular/core/src/animation/animation_player.js 2.33 kB {2} [built]
+        [] -> factory:466ms building:806ms dependencies:240ms = 1512ms
+  [185] ./~/@angular/core/src/application_init.js 1.95 kB {2} [built]
+        [] -> factory:303ms building:600ms dependencies:0ms = 903ms
+  [186] ./~/@angular/core/src/application_ref.js 19.4 kB {2} [built]
+        [] -> factory:302ms building:609ms dependencies:615ms = 1526ms
+  [187] ./~/@angular/core/src/change_detection/differs/default_iterable_differ.js 28.1 kB {2} [built]
+        [] -> factory:499ms building:416ms dependencies:1ms = 916ms
+  [188] ./~/@angular/core/src/console.js 749 bytes {2} [built]
+        [] -> factory:617ms building:641ms dependencies:1ms = 1259ms
+  [189] ./~/@angular/core/src/di/forward_ref.js 1.49 kB {2} [built]
+        [] -> factory:621ms building:603ms dependencies:0ms = 1224ms
+  [190] ./~/@angular/core/src/di/opaque_token.js 1.38 kB {2} [built]
+        [] -> factory:624ms building:623ms dependencies:0ms = 1247ms
+  [191] ./~/@angular/core/src/di/reflective_key.js 2.56 kB {2} [built]
+        [] -> factory:624ms building:620ms dependencies:1ms = 1245ms
+  [192] ./~/@angular/core/src/di/reflective_provider.js 8.27 kB {2} [built]
+        [] -> factory:623ms building:608ms dependencies:2ms = 1233ms
+  [193] ./~/@angular/core/src/linker/component_factory.js 5.53 kB {2} [built]
+        [] -> factory:618ms building:643ms dependencies:1ms = 1262ms
+  [194] ./~/@angular/core/src/reflection/reflection.js 556 bytes {2} [built]
+        [] -> factory:873ms building:714ms dependencies:1ms = 1588ms
+  [195] ./~/@angular/core/src/reflection/reflector_reader.js 512 bytes {2} [built]
+        [] -> factory:874ms building:714ms = 1588ms
+  [196] ./~/@angular/core/src/render/api.js 2.8 kB {2} [built]
+        [] -> factory:621ms building:623ms dependencies:0ms = 1244ms
+  [197] ./~/@angular/core/src/testability/testability.js 5.7 kB {2} [built]
+        [] -> factory:462ms building:796ms dependencies:269ms = 1527ms
+  [198] ./~/@angular/core/src/type.js 536 bytes {2} [built]
+        [] -> factory:309ms building:615ms = 924ms
+  [199] ./~/@angular/core/src/util/lang.js 444 bytes {2} [built]
+        [] -> factory:621ms building:623ms = 1244ms
+  [200] ./~/@angular/core/src/zone/ng_zone.js 10.9 kB {2} [built]
+        [] -> factory:622ms building:624ms dependencies:0ms = 1246ms
+  [201] ./~/@angular/forms/src/directives/abstract_control_directive.js 4.33 kB {2} [built]
+        [] -> factory:457ms building:841ms = 1298ms
+  [202] ./~/@angular/forms/src/directives/ng_control_status.js 4.24 kB {2} [built]
+        [] -> factory:462ms building:853ms dependencies:2ms = 1317ms
+  [203] ./~/@angular/forms/src/directives/ng_model.js 10.5 kB {2} [built]
+        [] -> factory:463ms building:879ms dependencies:232ms = 1574ms
+  [204] ./~/@angular/forms/src/directives/number_value_accessor.js 2.56 kB {2} [built]
+        [] -> factory:605ms building:230ms dependencies:2ms = 837ms
+  [205] ./~/@angular/forms/src/directives/range_value_accessor.js 2.39 kB {2} [built]
+        [] -> factory:606ms building:232ms dependencies:2ms = 840ms
+  [206] ./~/@angular/forms/src/directives/reactive_directives/form_control_directive.js 6.26 kB {2} [built]
+        [] -> factory:467ms building:899ms dependencies:208ms = 1574ms
+  [207] ./~/@angular/forms/src/directives/reactive_directives/form_control_name.js 7.76 kB {2} [built]
+        [] -> factory:468ms building:904ms dependencies:422ms = 1794ms
+  [208] ./~/@angular/forms/src/directives/validators.js 7 kB {2} [built]
+        [] -> factory:467ms building:934ms dependencies:2ms = 1403ms
+  [209] ./~/@angular/http/index.js 356 bytes {2} [built]
+        [] -> factory:563ms building:158ms = 721ms
+  [210] ./~/@angular/http/src/backends/browser_xhr.js 751 bytes {2} [built]
+        [] -> factory:466ms building:935ms dependencies:1ms = 1402ms
+  [211] ./~/@angular/http/src/base_request_options.js 6.4 kB {2} [built]
+        [] -> factory:327ms building:689ms dependencies:3ms = 1019ms
+  [212] ./~/@angular/http/src/static_response.js 1.89 kB {2} [built]
+        [] -> factory:333ms building:720ms dependencies:518ms = 1571ms
+  [213] ./~/@angular/platform-browser/src/dom/animation_driver.js 881 bytes {2} [built]
+        [] -> factory:460ms building:764ms = 1224ms
+  [214] ./~/@angular/platform-browser/src/dom/debug/ng_probe.js 2.35 kB {2} [built]
+        [] -> factory:462ms building:764ms dependencies:587ms = 1813ms
+  [215] ./~/@angular/platform-browser/src/dom/dom_renderer.js 12.7 kB {2} [built]
+        [] -> factory:721ms building:562ms dependencies:4ms = 1287ms
+  [216] ./~/@angular/platform-browser/src/dom/events/hammer_gestures.js 3.96 kB {2} [built]
+        [] -> factory:464ms building:792ms dependencies:2ms = 1258ms
+  [217] ./~/@angular/platform-browser/src/dom/shared_styles_host.js 2.86 kB {2} [built]
+        [] -> factory:723ms building:554ms dependencies:1ms = 1278ms
+  [218] ./~/@angular/platform-browser/src/security/url_sanitizer.js 2.69 kB {2} [built]
+        [] -> factory:555ms building:712ms dependencies:2ms = 1269ms
+  [219] ./~/@angular/router/src/directives/router_link.js 7.75 kB {2} [built]
+        [] -> factory:459ms building:827ms dependencies:4ms = 1290ms
+  [220] ./~/@angular/router/src/url_handling_strategy.js 943 bytes {2} [built]
+        [] -> factory:309ms building:668ms = 977ms
+  [221] ./~/@angular/router/src/utils/tree.js 2.48 kB {2} [built]
+        [] -> factory:813ms building:737ms = 1550ms
+  [223] ./~/@angularclass/hmr/dist/index.js 202 bytes {2} [built]
+        [] -> factory:571ms building:162ms = 733ms
+  [245] ./~/rxjs/BehaviorSubject.js 1.67 kB {2} [built]
+        [] -> factory:605ms building:761ms dependencies:0ms = 1366ms
+  [246] ./~/rxjs/OuterSubscriber.js 1.11 kB {2} [built]
+        [] -> factory:329ms building:953ms dependencies:1ms = 1283ms
+  [247] ./~/rxjs/Subscription.js 5.99 kB {2} [built]
+        [] -> factory:349ms building:776ms dependencies:1ms = 1126ms
+  [248] ./~/rxjs/observable/from.js 153 bytes {2} [built]
+        [] -> factory:851ms building:717ms = 1568ms
+  [249] ./~/rxjs/observable/fromPromise.js 179 bytes {2} [built]
+        [] -> factory:749ms building:721ms = 1470ms
+  [250] ./~/rxjs/operator/mergeAll.js 4.37 kB {2} [built]
+        [] -> factory:831ms building:729ms dependencies:1ms = 1561ms
+  [251] ./~/rxjs/symbol/iterator.js 1.03 kB {2} [built]
+        [] -> factory:358ms building:760ms dependencies:0ms = 1118ms
+  [252] ./~/rxjs/symbol/observable.js 631 bytes {2} [built]
+        [] -> factory:466ms building:966ms dependencies:0ms = 1432ms
+  [253] ./~/rxjs/symbol/rxSubscriber.js 270 bytes {2} [built]
+        [] -> factory:356ms building:759ms dependencies:0ms = 1115ms
+  [254] ./~/rxjs/util/EmptyError.js 850 bytes {2} [built]
+        [] -> factory:132ms building:446ms = 578ms
+  [255] ./~/rxjs/util/isArray.js 146 bytes {2} [built]
+        [] -> factory:357ms building:759ms = 1116ms
+  [256] ./~/rxjs/util/subscribeToResult.js 2.63 kB {2} [built]
+        [] -> factory:331ms building:963ms dependencies:2ms = 1296ms
+  [262] ./~/@angular/forms/index.js 357 bytes {2} [built]
+        [] -> factory:560ms building:159ms = 719ms
+  [263] ./~/@angular/common/src/directives/index.js 990 bytes {2} [built]
+        [] -> factory:400ms building:543ms = 943ms
+  [264] ./~/@angular/common/src/directives/ng_switch.js 7.38 kB {2} [built]
+        [] -> factory:302ms building:516ms dependencies:0ms = 818ms
+  [265] ./~/@angular/common/src/facade/intl.js 8.29 kB {2} [built]
+        [] -> factory:932ms building:711ms = 1643ms
+  [266] ./~/@angular/common/src/pipes/index.js 1.15 kB {2} [built]
+        [] -> factory:401ms building:550ms = 951ms
+  [267] ./~/@angular/compiler/src/animation/animation_ast.js 5.08 kB {2} [built]
+        [] -> factory:179ms building:248ms = 427ms
+  [268] ./~/@angular/compiler/src/animation/animation_compiler.js 16.1 kB {2} [built]
+        [] -> factory:374ms building:143ms dependencies:2ms = 519ms
+  [269] ./~/@angular/compiler/src/assertions.js 1.55 kB {2} [built]
+        [] -> factory:311ms building:137ms dependencies:2ms = 450ms
+  [270] ./~/@angular/compiler/src/compiler_util/binding_util.js 1.73 kB {2} [built]
+        [] -> factory:306ms building:314ms dependencies:1ms = 621ms
+  [271] ./~/@angular/compiler/src/compiler_util/render_util.js 5.05 kB {2} [built]
+        [] -> factory:307ms building:290ms dependencies:4ms = 601ms
+  [272] ./~/@angular/compiler/src/i18n/extractor_merger.js 17.9 kB {2} [built]
+        [] -> factory:207ms building:50ms dependencies:2ms = 259ms
+  [273] ./~/@angular/compiler/src/i18n/i18n_ast.js 3.11 kB {2} [built]
+        [] -> factory:82ms building:3ms = 85ms
+  [274] ./~/@angular/compiler/src/i18n/i18n_html_parser.js 2.88 kB {2} [built]
+        [] -> factory:249ms building:186ms dependencies:2ms = 437ms
+  [275] ./~/@angular/compiler/src/i18n/index.js 466 bytes {2} [built]
+        [] -> factory:686ms building:395ms dependencies:213ms = 1294ms
+  [276] ./~/@angular/compiler/src/i18n/message_bundle.js 1.59 kB {2} [built]
+        [] -> factory:216ms building:205ms dependencies:186ms = 607ms
+  [277] ./~/@angular/compiler/src/i18n/serializers/serializer.js 970 bytes {2} [built]
+        [] -> factory:63ms building:118ms = 181ms
+  [278] ./~/@angular/compiler/src/i18n/serializers/xliff.js 10.9 kB {2} [built]
+        [] -> factory:235ms building:320ms dependencies:1ms = 556ms
+  [279] ./~/@angular/compiler/src/i18n/serializers/xmb.js 4.1 kB {2} [built]
+        [] -> factory:236ms building:323ms dependencies:60ms = 619ms
+  [280] ./~/@angular/compiler/src/i18n/serializers/xml_helper.js 3.71 kB {2} [built]
+        [] -> factory:64ms building:116ms = 180ms
+  [281] ./~/@angular/compiler/src/i18n/serializers/xtb.js 7.59 kB {2} [built]
+        [] -> factory:236ms building:329ms dependencies:53ms = 618ms
+  [282] ./~/@angular/compiler/src/ml_parser/xml_parser.js 1.08 kB {2} [built]
+        [] -> factory:62ms building:109ms dependencies:1ms = 172ms
+  [283] ./~/@angular/compiler/src/output/ts_emitter.js 12.5 kB {2} [built]
+        [] -> factory:688ms building:399ms dependencies:173ms = 1260ms
+  [284] ./~/@angular/compiler/src/output/value_util.js 1.71 kB {2} [built]
+        [] -> factory:274ms building:140ms dependencies:1ms = 415ms
+  [285] ./~/@angular/compiler/src/provider_analyzer.js 23.1 kB {2} [built]
+        [] -> factory:275ms building:172ms dependencies:2ms = 449ms
+  [286] ./~/@angular/compiler/src/runtime_compiler.js 20.5 kB {2} [built]
+        [] -> factory:675ms building:210ms dependencies:6ms = 891ms
+  [287] ./~/@angular/compiler/src/schema/dom_element_schema_registry.js 22.7 kB {2} [built]
+        [] -> factory:686ms building:392ms dependencies:185ms = 1263ms
+  [288] ./~/@angular/compiler/src/style_url_resolver.js 1.64 kB {2} [built]
+        [] -> factory:326ms building:143ms dependencies:1ms = 470ms
+  [289] ./~/@angular/compiler/src/template_parser/binding_parser.js 18.9 kB {2} [built]
+        [] -> factory:282ms building:184ms dependencies:5ms = 471ms
+  [290] ./~/@angular/compiler/src/template_parser/template_preparser.js 3.12 kB {2} [built]
+        [] -> factory:327ms building:137ms dependencies:1ms = 465ms
+  [291] ./~/@angular/compiler/src/view_compiler/compile_element.js 21 kB {2} [built]
+        [] -> factory:185ms building:229ms dependencies:4ms = 418ms
+  [292] ./~/@angular/compiler/src/view_compiler/compile_query.js 5.16 kB {2} [built]
+        [] -> factory:164ms building:117ms dependencies:2ms = 283ms
+  [293] ./~/@angular/compiler/src/view_compiler/compile_view.js 6.04 kB {2} [built]
+        [] -> factory:186ms building:242ms dependencies:152ms = 580ms
+  [294] ./~/@angular/core/src/animation/animation_constants.js 416 bytes {2} [built]
+        [] -> factory:614ms building:718ms = 1332ms
+  [295] ./~/@angular/core/src/animation/animation_group_player.js 3.75 kB {2} [built]
+        [] -> factory:614ms building:722ms dependencies:0ms = 1336ms
+  [296] ./~/@angular/core/src/animation/animation_queue.js 892 bytes {2} [built]
+        [] -> factory:384ms building:461ms = 845ms
+  [297] ./~/@angular/core/src/animation/animation_sequence_player.js 4.11 kB {2} [built]
+        [] -> factory:615ms building:719ms dependencies:0ms = 1334ms
+  [298] ./~/@angular/core/src/animation/animation_transition_event.js 1.6 kB {2} [built]
+        [] -> factory:466ms building:805ms = 1271ms
+  [299] ./~/@angular/core/src/animation/metadata.js 25.2 kB {2} [built]
+        [] -> factory:465ms building:810ms dependencies:237ms = 1512ms
+  [300] ./~/@angular/core/src/change_detection/differs/default_keyvalue_differ.js 11.2 kB {2} [built]
+        [] -> factory:501ms building:408ms dependencies:0ms = 909ms
+  [301] ./~/@angular/core/src/change_detection/differs/iterable_differs.js 2.89 kB {2} [built]
+        [] -> factory:501ms building:404ms dependencies:1ms = 906ms
+  [302] ./~/@angular/core/src/change_detection/differs/keyvalue_differs.js 2.79 kB {2} [built]
+        [] -> factory:502ms building:415ms dependencies:1ms = 918ms
+  [303] ./~/@angular/core/src/debug/debug_node.js 6.5 kB {2} [built]
+        [] -> factory:462ms building:793ms = 1255ms
+  [304] ./~/@angular/core/src/di/reflective_errors.js 9.19 kB {2} [built]
+        [] -> factory:493ms building:464ms dependencies:0ms = 957ms
+  [305] ./~/@angular/core/src/error_handler.js 3.17 kB {2} [built]
+        [] -> factory:310ms building:621ms = 931ms
+  [306] ./~/@angular/core/src/i18n/tokens.js 635 bytes {2} [built]
+        [] -> factory:463ms building:797ms dependencies:264ms = 1524ms
+  [307] ./~/@angular/core/src/linker/debug_context.js 4.33 kB {2} [built]
+        [] -> factory:620ms building:733ms dependencies:16ms = 1369ms
+  [308] ./~/@angular/core/src/linker/errors.js 3.1 kB {2} [built]
+        [] -> factory:373ms building:465ms dependencies:1ms = 839ms
+  [309] ./~/@angular/core/src/linker/ng_module_factory.js 4.56 kB {2} [built]
+        [] -> factory:616ms building:649ms dependencies:2ms = 1267ms
+  [310] ./~/@angular/core/src/linker/ng_module_factory_loader.js 1.38 kB {2} [built]
+        [] -> factory:617ms building:651ms = 1268ms
+  [311] ./~/@angular/core/src/linker/template_ref.js 2.86 kB {2} [built]
+        [] -> factory:619ms building:652ms dependencies:0ms = 1271ms
+  [312] ./~/@angular/core/src/linker/view_container_ref.js 6.76 kB {2} [built]
+        [] -> factory:619ms building:702ms dependencies:1ms = 1322ms
+  [313] ./~/@angular/core/src/linker/view_ref.js 4.79 kB {2} [built]
+        [] -> factory:620ms building:703ms dependencies:0ms = 1323ms
+  [314] ./~/@angular/core/src/metadata.js 785 bytes {2} [built]
+        [] -> factory:300ms building:597ms = 897ms
+  [315] ./~/@angular/core/src/metadata/lifecycle_hooks.js 5.68 kB {2} [built]
+        [] -> factory:620ms building:604ms = 1224ms
+  [316] ./~/@angular/core/src/metadata/view.js 2.42 kB {2} [built]
+        [] -> factory:621ms building:603ms = 1224ms
+  [317] ./~/@angular/core/src/reflection/reflection_capabilities.js 7.46 kB {2} [built]
+        [] -> factory:867ms building:716ms dependencies:1ms = 1584ms
+  [318] ./~/@angular/core/src/reflection/reflector.js 2.48 kB {2} [built]
+        [] -> factory:238ms building:404ms dependencies:0ms = 642ms
+  [319] ./~/@angular/core/src/security.js 1.22 kB {2} [built]
+        [] -> factory:312ms building:620ms = 932ms
+  [320] ./~/@angular/forms/src/directives/error_examples.js 1.6 kB {2} [built]
+        [] -> factory:207ms building:424ms = 631ms
+  [321] ./~/@angular/forms/src/directives/template_driven_errors.js 2.26 kB {2} [built]
+        [] -> factory:451ms building:738ms dependencies:207ms = 1396ms
+  [322] ./~/@angular/forms/src/form_builder.js 4.04 kB {2} [built]
+        [] -> factory:327ms building:668ms dependencies:505ms = 1500ms
+  [323] ./~/@angular/forms/src/private_import_core.js 341 bytes {2} [built]
+        [] -> factory:569ms building:787ms dependencies:1ms = 1357ms
+  [324] ./~/@angular/http/src/backends/browser_jsonp.js 1.97 kB {2} [built]
+        [] -> factory:524ms building:790ms dependencies:1ms = 1315ms
+  [325] ./~/@angular/http/src/backends/jsonp_backend.js 5.94 kB {2} [built]
+        [] -> factory:466ms building:947ms dependencies:159ms = 1572ms
+  [326] ./~/@angular/http/src/backends/xhr_backend.js 9.61 kB {2} [built]
+        [] -> factory:467ms building:958ms dependencies:144ms = 1569ms
+  [327] ./~/@angular/http/src/body.js 2.19 kB {2} [built]
+        [] -> factory:527ms building:787ms dependencies:0ms = 1314ms
+  [328] ./~/@angular/http/src/http.js 8.61 kB {2} [built]
+        [] -> factory:330ms building:704ms dependencies:3ms = 1037ms
+  [329] ./~/@angular/http/src/static_request.js 5.92 kB {2} [built]
+        [] -> factory:332ms building:712ms dependencies:525ms = 1569ms
+  [330] ./~/@angular/platform-browser-dynamic/index.js 395 bytes {2} [built]
+        [] -> factory:546ms building:129ms = 675ms
+  [331] ./~/@angular/platform-browser-dynamic/src/platform_providers.js 782 bytes {2} [built]
+        [] -> factory:327ms building:483ms dependencies:425ms = 1235ms
+  [332] ./~/@angular/platform-browser-dynamic/src/resource_loader/resource_loader_impl.js 2.18 kB {2} [built]
+        [] -> factory:731ms building:553ms dependencies:2ms = 1286ms
+  [333] ./~/@angular/platform-browser/src/browser.js 4.63 kB {2} [built]
+        [] -> factory:310ms building:496ms dependencies:717ms = 1523ms
+  [334] ./~/@angular/platform-browser/src/browser/browser_adapter.js 20 kB {2} [built]
+        [] -> factory:719ms building:574ms dependencies:1ms = 1294ms
+  [335] ./~/@angular/platform-browser/src/browser/location/browser_platform_location.js 3.54 kB {2} [built]
+        [] -> factory:1006ms building:669ms dependencies:4ms = 1679ms
+  [336] ./~/@angular/platform-browser/src/browser/testability.js 2.67 kB {2} [built]
+        [] -> factory:720ms building:578ms dependencies:19ms = 1317ms
+  [337] ./~/@angular/platform-browser/src/browser/title.js 1.13 kB {2} [built]
+        [] -> factory:310ms building:490ms = 800ms
+  [338] ./~/@angular/platform-browser/src/dom/events/dom_events.js 1.38 kB {2} [built]
+        [] -> factory:722ms building:573ms dependencies:2ms = 1297ms
+  [339] ./~/@angular/platform-browser/src/dom/events/key_events.js 4.2 kB {2} [built]
+        [] -> factory:722ms building:597ms dependencies:3ms = 1322ms
+  [340] ./~/@angular/platform-browser/src/dom/web_animations_driver.js 2.92 kB {2} [built]
+        [] -> factory:718ms building:557ms dependencies:0ms = 1275ms
+  [341] ./~/@angular/platform-browser/src/private_import_core.js 1.08 kB {2} [built]
+        [] -> factory:589ms building:673ms dependencies:1ms = 1263ms
+  [342] ./~/@angular/platform-browser/src/security/dom_sanitization_service.js 7.65 kB {2} [built]
+        [] -> factory:464ms building:797ms dependencies:1ms = 1262ms
+  [343] ./~/@angular/router/src/directives/router_link_active.js 5.36 kB {2} [built]
+        [] -> factory:460ms building:832ms dependencies:2ms = 1294ms
+  [344] ./~/@angular/router/src/directives/router_outlet.js 4.49 kB {2} [built]
+        [] -> factory:461ms building:842ms dependencies:3ms = 1306ms
+  [345] ./~/@angular/router/src/router_module.js 9.43 kB {2} [built]
+        [] -> factory:306ms building:663ms dependencies:826ms = 1795ms
+  [346] ./~/@angular/router/src/router_preloader.js 4.8 kB {2} [built]
+        [] -> factory:307ms building:655ms dependencies:829ms = 1791ms
+  [386] ./~/rxjs/observable/ArrayObservable.js 4.57 kB {2} [built]
+        [] -> factory:234ms building:421ms dependencies:0ms = 655ms
+  [387] ./~/rxjs/observable/EmptyObservable.js 2.71 kB {2} [built]
+        [] -> factory:84ms building:356ms dependencies:1ms = 441ms
+  [388] ./~/rxjs/observable/PromiseObservable.js 4.67 kB {2} [built]
+        [] -> factory:231ms building:422ms dependencies:1ms = 654ms
+  [389] ./~/rxjs/observable/ScalarObservable.js 1.88 kB {2} [built]
+        [] -> factory:83ms building:334ms dependencies:1ms = 418ms
+  [390] ./~/rxjs/operator/catch.js 2.54 kB {2} [built]
+        [] -> factory:830ms building:725ms dependencies:1ms = 1556ms
+  [391] ./~/rxjs/operator/concatAll.js 1.82 kB {2} [built]
+        [] -> factory:330ms building:446ms dependencies:0ms = 776ms
+  [392] ./~/rxjs/operator/concatMap.js 3 kB {2} [built]
+        [] -> factory:853ms building:719ms dependencies:1ms = 1573ms
+  [393] ./~/rxjs/operator/every.js 2.5 kB {2} [built]
+        [] -> factory:854ms building:718ms dependencies:0ms = 1572ms
+  [394] ./~/rxjs/operator/first.js 5.65 kB {2} [built]
+        [] -> factory:854ms building:721ms dependencies:0ms = 1575ms
+  [395] ./~/rxjs/util/ObjectUnsubscribedError.js 955 bytes {2} [built]
+        [] -> factory:339ms building:446ms = 785ms
+  [396] ./~/rxjs/util/errorObject.js 177 bytes {2} [built]
+        [] -> factory:152ms building:423ms = 575ms
+  [397] ./~/rxjs/util/isFunction.js 148 bytes {2} [built]
+        [] -> factory:349ms building:774ms = 1123ms
+  [398] ./~/rxjs/util/isPromise.js 207 bytes {2} [built]
+        [] -> factory:358ms building:762ms = 1120ms
+  [412] ./src async 160 bytes {2} [built]
+        [] -> factory:24ms building:21ms = 45ms
+  [415] ./src/vendor.browser.ts 859 bytes {2} [built]
+        [] -> factory:95ms building:1476ms = 1571ms
+  [416] ./~/@angular/common/src/common_module.js 1.24 kB {2} [built]
+        [] -> factory:400ms building:545ms dependencies:3ms = 948ms
+  [417] ./~/@angular/common/src/directives/ng_class.js 6.02 kB {2} [built]
+        [] -> factory:299ms building:512ms dependencies:711ms = 1522ms
+  [418] ./~/@angular/common/src/directives/ng_for.js 7.99 kB {2} [built]
+        [] -> factory:299ms building:502ms dependencies:1ms = 802ms
+  [419] ./~/@angular/common/src/directives/ng_if.js 2.06 kB {2} [built]
+        [] -> factory:300ms building:514ms dependencies:1ms = 815ms
+  [420] ./~/@angular/common/src/directives/ng_plural.js 4.28 kB {2} [built]
+        [] -> factory:300ms building:520ms dependencies:3ms = 823ms
+  [421] ./~/@angular/common/src/directives/ng_style.js 2.74 kB {2} [built]
+        [] -> factory:301ms building:548ms dependencies:1ms = 850ms
+  [422] ./~/@angular/common/src/directives/ng_template_outlet.js 2.25 kB {2} [built]
+        [] -> factory:302ms building:539ms dependencies:1ms = 842ms
+  [423] ./~/@angular/common/src/location.js 470 bytes {2} [built]
+        [] -> factory:398ms building:551ms = 949ms
+  [424] ./~/@angular/common/src/location/hash_location_strategy.js 3.92 kB {2} [built]
+        [] -> factory:298ms building:541ms dependencies:677ms = 1516ms
+  [425] ./~/@angular/common/src/location/path_location_strategy.js 4.12 kB {2} [built]
+        [] -> factory:299ms building:547ms dependencies:670ms = 1516ms
+  [426] ./~/@angular/common/src/pipes/async_pipe.js 4.7 kB {2} [built]
+        [] -> factory:298ms building:559ms dependencies:1ms = 858ms
+  [427] ./~/@angular/common/src/pipes/date_pipe.js 6.8 kB {2} [built]
+        [] -> factory:298ms building:563ms dependencies:657ms = 1518ms
+  [428] ./~/@angular/common/src/pipes/i18n_plural_pipe.js 1.81 kB {2} [built]
+        [] -> factory:299ms building:568ms dependencies:651ms = 1518ms
+  [429] ./~/@angular/common/src/pipes/i18n_select_pipe.js 1.75 kB {2} [built]
+        [] -> factory:300ms building:564ms dependencies:654ms = 1518ms
+  [430] ./~/@angular/common/src/pipes/json_pipe.js 929 bytes {2} [built]
+        [] -> factory:300ms building:571ms dependencies:1ms = 872ms
+  [431] ./~/@angular/common/src/pipes/lowercase_pipe.js 1.27 kB {2} [built]
+        [] -> factory:301ms building:573ms dependencies:644ms = 1518ms
+  [432] ./~/@angular/common/src/pipes/number_pipe.js 6.77 kB {2} [built]
+        [] -> factory:301ms building:579ms dependencies:914ms = 1794ms
+  [433] ./~/@angular/common/src/pipes/slice_pipe.js 2.74 kB {2} [built]
+        [] -> factory:302ms building:574ms dependencies:642ms = 1518ms
+  [434] ./~/@angular/common/src/pipes/uppercase_pipe.js 1.27 kB {2} [built]
+        [] -> factory:302ms building:580ms dependencies:636ms = 1518ms
+  [435] ./~/@angular/common/src/private_import_core.js 341 bytes {2} [built]
+        [] -> factory:660ms building:600ms dependencies:1ms = 1261ms
+  [436] ./~/@angular/compiler/src/animation/styles_collection.js 2.02 kB {2} [built]
+        [] -> factory:180ms building:295ms dependencies:0ms = 475ms
+  [437] ./~/@angular/compiler/src/compiler.js 6.54 kB {2} [built]
+        [] -> factory:676ms building:270ms dependencies:318ms = 1264ms
+  [438] ./~/@angular/compiler/src/i18n/i18n_parser.js 6.44 kB {2} [built]
+        [] -> factory:82ms building:26ms dependencies:2ms = 110ms
+  [439] ./~/@angular/compiler/src/i18n/serializers/placeholder.js 3.88 kB {2} [built]
+        [] -> factory:4ms building:3ms = 7ms
+  [440] ./~/@angular/compiler/src/i18n/translation_bundle.js 875 bytes {2} [built]
+        [] -> factory:208ms building:56ms = 264ms
+  [441] ./~/@angular/compiler/src/lifecycle_reflector.js 1.12 kB {2} [built]
+        [] -> factory:311ms building:140ms dependencies:0ms = 451ms
+  [442] ./~/@angular/compiler/src/ml_parser/icu_ast_expander.js 4.64 kB {2} [built]
+        [] -> factory:250ms building:190ms dependencies:1ms = 441ms
+  [443] ./~/@angular/compiler/src/ml_parser/lexer.js 28.1 kB {2} [built]
+        [] -> factory:193ms building:85ms dependencies:2ms = 280ms
+  [444] ./~/@angular/compiler/src/ml_parser/xml_tags.js 896 bytes {2} [built]
+        [] -> factory:13ms building:28ms dependencies:1ms = 42ms
+  [445] ./~/@angular/compiler/src/offline_compiler.js 16.1 kB {2} [built]
+        [] -> factory:674ms building:233ms dependencies:353ms = 1260ms
+  [446] ./~/@angular/compiler/src/output/abstract_js_emitter.js 6.68 kB {2} [built]
+        [] -> factory:266ms building:55ms dependencies:1ms = 322ms
+  [447] ./~/@angular/compiler/src/output/output_interpreter.js 14.5 kB {2} [built]
+        [] -> factory:375ms building:99ms dependencies:1ms = 475ms
+  [448] ./~/@angular/compiler/src/output/output_jit.js 2.55 kB {2} [built]
+        [] -> factory:376ms building:160ms dependencies:1ms = 537ms
+  [449] ./~/@angular/compiler/src/output/path_util.js 1.3 kB {2} [built]
+        [] -> factory:688ms building:401ms = 1089ms
+  [450] ./~/@angular/compiler/src/schema/dom_security_schema.js 2.36 kB {2} [built]
+        [] -> factory:218ms building:193ms dependencies:1ms = 412ms
+  [451] ./~/@angular/compiler/src/shadow_css.js 22.4 kB {2} [built]
+        [] -> factory:269ms building:165ms = 434ms
+  [452] ./~/@angular/compiler/src/view_compiler/compile_pipe.js 3.9 kB {2} [built]
+        [] -> factory:152ms building:85ms dependencies:1ms = 238ms
+  [453] ./~/@angular/compiler/src/view_compiler/event_binder.js 5.28 kB {2} [built]
+        [] -> factory:148ms building:96ms dependencies:4ms = 248ms
+  [454] ./~/@angular/compiler/src/view_compiler/lifecycle_binder.js 3.68 kB {2} [built]
+        [] -> factory:148ms building:102ms dependencies:2ms = 252ms
+  [455] ./~/@angular/compiler/src/view_compiler/property_binder.js 6.72 kB {2} [built]
+        [] -> factory:149ms building:105ms dependencies:4ms = 258ms
+  [456] ./~/@angular/compiler/src/view_compiler/view_binder.js 5.52 kB {2} [built]
+        [] -> factory:186ms building:247ms dependencies:1ms = 434ms
+  [457] ./~/@angular/compiler/src/view_compiler/view_builder.js 29.4 kB {2} [built]
+        [] -> factory:187ms building:261ms dependencies:131ms = 579ms
+  [458] ./~/@angular/core/src/animation/animation_keyframe.js 446 bytes {2} [built]
+        [] -> factory:615ms building:725ms = 1340ms
+  [459] ./~/@angular/core/src/animation/animation_style_util.js 4.1 kB {2} [built]
+        [] -> factory:616ms building:722ms dependencies:2ms = 1340ms
+  [460] ./~/@angular/core/src/animation/animation_styles.js 400 bytes {2} [built]
+        [] -> factory:617ms building:731ms = 1348ms
+  [461] ./~/@angular/core/src/animation/animation_transition.js 1.1 kB {2} [built]
+        [] -> factory:617ms building:724ms dependencies:0ms = 1341ms
+  [462] ./~/@angular/core/src/animation/view_animation_map.js 2.08 kB {2} [built]
+        [] -> factory:147ms building:295ms dependencies:1ms = 443ms
+  [463] ./~/@angular/core/src/application_module.js 1.95 kB {2} [built]
+        [] -> factory:308ms building:614ms dependencies:616ms = 1538ms
+  [464] ./~/@angular/core/src/change_detection.js 564 bytes {2} [built]
+        [] -> factory:307ms building:613ms = 920ms
+  [465] ./~/@angular/core/src/change_detection/change_detector_ref.js 392 bytes {2} [built]
+        [] -> factory:382ms building:467ms = 849ms
+  [466] ./~/@angular/core/src/core.js 1.76 kB {2} [built]
+        [] -> factory:400ms building:552ms = 952ms
+  [467] ./~/@angular/core/src/core_private_export.js 5.07 kB {2} [built]
+        [] -> factory:310ms building:616ms dependencies:866ms = 1792ms
+  [468] ./~/@angular/core/src/debug/debug_renderer.js 6.9 kB {2} [built]
+        [] -> factory:619ms building:732ms dependencies:0ms = 1351ms
+  [469] ./~/@angular/core/src/di/reflective_injector.js 30.9 kB {2} [built]
+        [] -> factory:622ms building:618ms dependencies:485ms = 1725ms
+  [470] ./~/@angular/core/src/linker.js 1.09 kB {2} [built]
+        [] -> factory:305ms building:611ms dependencies:615ms = 1531ms
+  [471] ./~/@angular/core/src/linker/animation_view_context.js 2.21 kB {2} [built]
+        [] -> factory:323ms building:463ms dependencies:1ms = 787ms
+  [472] ./~/@angular/core/src/linker/element_injector.js 1.11 kB {2} [built]
+        [] -> factory:343ms building:447ms dependencies:1ms = 791ms
+  [473] ./~/@angular/core/src/linker/query_list.js 4.23 kB {2} [built]
+        [] -> factory:618ms building:651ms dependencies:1ms = 1270ms
+  [474] ./~/@angular/core/src/linker/system_js_ng_module_factory_loader.js 2.9 kB {2} [built]
+        [] -> factory:618ms building:655ms dependencies:1ms = 1274ms
+  [475] ./~/@angular/core/src/linker/view.js 16.3 kB {2} [built]
+        [] -> factory:621ms building:757ms dependencies:323ms = 1701ms
+  [476] ./~/@angular/core/src/linker/view_container.js 5.03 kB {2} [built]
+        [] -> factory:622ms building:749ms dependencies:2ms = 1373ms
+  [477] ./~/@angular/core/src/metadata/di.js 4.56 kB {2} [built]
+        [] -> factory:619ms building:603ms dependencies:1ms = 1223ms
+  [478] ./~/@angular/core/src/metadata/directives.js 2.13 kB {2} [built]
+        [] -> factory:619ms building:600ms dependencies:1ms = 1220ms
+  [479] ./~/@angular/core/src/metadata/ng_module.js 1.07 kB {2} [built]
+        [] -> factory:620ms building:601ms dependencies:0ms = 1221ms
+  [480] ./~/@angular/core/src/platform_core_providers.js 1.06 kB {2} [built]
+        [] -> factory:307ms building:611ms dependencies:611ms = 1529ms
+  [481] ./~/@angular/core/src/profile/wtf_impl.js 959 bytes {2} [built]
+        [] -> factory:530ms building:720ms dependencies:1ms = 1251ms
+  [482] ./~/@angular/core/src/render.js 338 bytes {2} [built]
+        [] -> factory:305ms building:599ms = 904ms
+  [483] ./~/@angular/core/src/util.js 301 bytes {2} [built]
+        [] -> factory:301ms building:598ms = 899ms
+  [484] ./~/@angular/core/src/zone.js 299 bytes {2} [built]
+        [] -> factory:304ms building:600ms = 904ms
+  [485] ./~/@angular/forms/src/directives.js 4.2 kB {2} [built]
+        [] -> factory:405ms building:523ms dependencies:27ms = 955ms
+  [486] ./~/@angular/forms/src/directives/normalize_validator.js 639 bytes {2} [built]
+        [] -> factory:272ms building:445ms = 717ms
+  [487] ./~/@angular/forms/src/form_providers.js 1.61 kB {2} [built]
+        [] -> factory:330ms building:668ms dependencies:3ms = 1001ms
+  [488] ./~/@angular/forms/src/forms.js 2.51 kB {2} [built]
+        [] -> factory:400ms building:563ms = 963ms
+  [489] ./~/@angular/http/src/http_module.js 3.05 kB {2} [built]
+        [] -> factory:331ms building:716ms dependencies:5ms = 1052ms
+  [490] ./~/@angular/http/src/index.js 1.06 kB {2} [built]
+        [] -> factory:400ms building:565ms = 965ms
+  [491] ./~/@angular/platform-browser-dynamic/src/platform-browser-dynamic.js 868 bytes {2} [built]
+        [] -> factory:437ms building:513ms dependencies:2ms = 952ms
+  [492] ./~/@angular/platform-browser-dynamic/src/private_export.js 612 bytes {2} [built]
+        [] -> factory:328ms building:489ms dependencies:724ms = 1541ms
+  [493] ./~/@angular/platform-browser-dynamic/src/private_import_platform-browser.js 459 bytes {2} [built]
+        [] -> factory:730ms building:551ms dependencies:1ms = 1282ms
+  [494] ./~/@angular/platform-browser-dynamic/src/resource_loader/resource_loader_cache.js 1.55 kB {2} [built]
+        [] -> factory:477ms building:761ms dependencies:319ms = 1557ms
+  [495] ./~/@angular/platform-browser/src/browser/generic_browser_adapter.js 3.34 kB {2} [built]
+        [] -> factory:549ms building:461ms dependencies:1ms = 1011ms
+  [496] ./~/@angular/platform-browser/src/browser/location/history.js 313 bytes {2} [built]
+        [] -> factory:286ms building:407ms = 693ms
+  [497] ./~/@angular/platform-browser/src/browser/tools/common_tools.js 3.2 kB {2} [built]
+        [] -> factory:585ms building:703ms dependencies:3ms = 1291ms
+  [498] ./~/@angular/platform-browser/src/browser/tools/tools.js 1.09 kB {2} [built]
+        [] -> factory:459ms building:770ms dependencies:309ms = 1538ms
+  [499] ./~/@angular/platform-browser/src/dom/debug/by.js 1.53 kB {2} [built]
+        [] -> factory:461ms building:793ms dependencies:284ms = 1538ms
+  [500] ./~/@angular/platform-browser/src/dom/web_animations_player.js 6.43 kB {2} [built]
+        [] -> factory:566ms building:458ms dependencies:4ms = 1028ms
+  [501] ./~/@angular/platform-browser/src/facade/browser.js 938 bytes {2} [built]
+        [] -> factory:263ms building:484ms = 747ms
+  [502] ./~/@angular/platform-browser/src/platform-browser.js 893 bytes {2} [built]
+        [] -> factory:437ms building:531ms = 968ms
+  [503] ./~/@angular/platform-browser/src/private_export.js 2.3 kB {2} [built]
+        [] -> factory:313ms building:509ms dependencies:991ms = 1813ms
+  [504] ./~/@angular/platform-browser/src/security/html_sanitizer.js 11.8 kB {2} [built]
+        [] -> factory:553ms building:677ms dependencies:24ms = 1254ms
+  [505] ./~/@angular/platform-browser/src/security/style_sanitizer.js 3.84 kB {2} [built]
+        [] -> factory:554ms building:706ms dependencies:2ms = 1262ms
+  [506] ./~/@angular/router/src/apply_redirects.js 17.2 kB {2} [built]
+        [] -> factory:612ms building:764ms dependencies:428ms = 1804ms
+  [507] ./~/@angular/router/src/config.js 3.43 kB {2} [built]
+        [] -> factory:613ms building:778ms dependencies:0ms = 1391ms
+  [508] ./~/@angular/router/src/create_router_state.js 1.82 kB {2} [built]
+        [] -> factory:613ms building:779ms dependencies:1ms = 1393ms
+  [509] ./~/@angular/router/src/create_url_tree.js 11.4 kB {2} [built]
+        [] -> factory:614ms building:774ms dependencies:2ms = 1390ms
+  [510] ./~/@angular/router/src/index.js 1.18 kB {2} [built]
+        [] -> factory:401ms building:557ms = 958ms
+  [511] ./~/@angular/router/src/private_export.js 510 bytes {2} [built]
+        [] -> factory:310ms building:685ms dependencies:801ms = 1796ms
+  [512] ./~/@angular/router/src/private_import_platform-browser.js 168 bytes {2} [built]
+        [] -> factory:604ms building:787ms dependencies:1ms = 1392ms
+  [513] ./~/@angular/router/src/recognize.js 11.6 kB {2} [built]
+        [] -> factory:614ms building:783ms dependencies:19ms = 1416ms
+  [526] ./~/@angularclass/hmr/dist/helpers.js 2.21 kB {2} [built]
+        [] -> factory:387ms building:557ms = 944ms
+  [528] ./~/bootstrap-loader/lib/bootstrap.loader.js!./~/bootstrap-loader/no-op.js 2.09 kB {2} [built]
+        [] -> factory:400ms building:102ms = 502ms
+  [529] ./~/bootstrap-loader/lib/bootstrap.scripts.loader.js?{"bootstrapVersion":4,"useFlexbox":true,"extractStyles":true,"styleLoaders":["style","css","sass"],"styles":["mixins","normalize","print","reboot","type","images","code","grid","tables","forms","buttons","animation","dropdown","button-group","input-group","custom-forms","nav","navbar","card","breadcrumb","pagination","jumbotron","alert","progress","media","list-group","responsive-embed","close","modal","tooltip","popover","carousel","utilities"],"scripts":["alert","button","carousel","collapse","dropdown","modal","popover","scrollspy","tab","tooltip","util"],"configFilePath":"C://Users//Jamie//angular2-webpack-starter//.bootstraprc","bootstrapPath":"C://Users//Jamie//angular2-webpack-starter//~//bootstrap","bootstrapRelPath":"..//bootstrap"}!./~/bootstrap-loader/no-op.js 499 bytes {2} [built]
+        [] -> factory:82ms building:725ms = 807ms
+  [530] ./~/bootstrap-loader/loader.js 63 bytes {2} [built]
+        [] -> factory:565ms building:157ms = 722ms
+  [531] ./~/bootstrap/js/dist/alert.js 5.13 kB {2} [built]
+        [] -> factory:1469ms building:836ms dependencies:604ms = 2909ms
+  [532] ./~/bootstrap/js/dist/button.js 5.14 kB {2} [built]
+        [] -> factory:1470ms building:839ms dependencies:1ms = 2310ms
+  [533] ./~/bootstrap/js/dist/carousel.js 13.7 kB {2} [built]
+        [] -> factory:1470ms building:831ms dependencies:1ms = 2302ms
+  [534] ./~/bootstrap/js/dist/collapse.js 10.7 kB {2} [built]
+        [] -> factory:1471ms building:843ms dependencies:595ms = 2909ms
+  [535] ./~/bootstrap/js/dist/dropdown.js 8.89 kB {2} [built]
+        [] -> factory:1471ms building:848ms dependencies:590ms = 2909ms
+  [536] ./~/bootstrap/js/dist/modal.js 15.7 kB {2} [built]
+        [] -> factory:1472ms building:861ms dependencies:577ms = 2910ms
+  [537] ./~/bootstrap/js/dist/popover.js 6.5 kB {2} [built]
+        [] -> factory:1473ms building:883ms dependencies:1ms = 2357ms
+  [538] ./~/bootstrap/js/dist/scrollspy.js 9.74 kB {2} [built]
+        [] -> factory:1474ms building:889ms dependencies:554ms = 2917ms
+  [539] ./~/bootstrap/js/dist/tab.js 7.43 kB {2} [built]
+        [] -> factory:1475ms building:849ms dependencies:585ms = 2909ms
+  [540] ./~/bootstrap/js/dist/tooltip.js 16.7 kB {2} [built]
+        [] -> factory:1475ms building:900ms dependencies:543ms = 2918ms
+  [541] ./~/bootstrap/js/dist/util.js 4.25 kB {2} [built]
+        [] -> factory:1476ms building:891ms dependencies:1ms = 2368ms
+  [704] ./~/exports-loader?Tooltip!./~/bootstrap/js/dist/tooltip.js 16.8 kB {2} [built]
+        [] -> factory:554ms building:5ms dependencies:8ms = 567ms
+  [714] ./~/rxjs/InnerSubscriber.js 1.29 kB {2} [built]
+        [] -> factory:359ms building:758ms dependencies:0ms = 1117ms
+  [715] ./~/rxjs/Notification.js 4.78 kB {2} [built]
+        [] -> factory:24ms building:118ms dependencies:0ms = 142ms
+  [716] ./~/rxjs/Observer.js 193 bytes {2} [built]
+        [] -> factory:350ms building:774ms = 1124ms
+  [717] ./~/rxjs/SubjectSubscription.js 1.4 kB {2} [built]
+        [] -> factory:337ms building:446ms dependencies:1ms = 784ms
+  [719] ./~/rxjs/add/operator/map.js 187 bytes {2} [built]
+        [] -> factory:573ms building:163ms dependencies:491ms = 1227ms
+  [720] ./~/rxjs/add/operator/mergeMap.js 282 bytes {2} [built]
+        [] -> factory:573ms building:161ms = 734ms
+  [721] ./~/rxjs/observable/ArrayLikeObservable.js 2.56 kB {2} [built]
+        [] -> factory:87ms building:333ms dependencies:1ms = 421ms
+  [722] ./~/rxjs/observable/FromObservable.js 4.91 kB {2} [built]
+        [] -> factory:234ms building:417ms dependencies:4ms = 655ms
+  [723] ./~/rxjs/observable/IteratorObservable.js 4.8 kB {2} [built]
+        [] -> factory:86ms building:331ms dependencies:1ms = 418ms
+  [724] ./~/rxjs/operator/filter.js 3.58 kB {2} [built]
+        [] -> factory:831ms building:721ms dependencies:0ms = 1552ms
+  [725] ./~/rxjs/operator/last.js 4.31 kB {2} [built]
+        [] -> factory:216ms building:423ms dependencies:1ms = 640ms
+  [726] ./~/rxjs/operator/observeOn.js 2.84 kB {2} [built]
+        [] -> factory:87ms building:357ms dependencies:0ms = 444ms
+  [727] ./~/rxjs/operator/reduce.js 4.35 kB {2} [built]
+        [] -> factory:856ms building:720ms dependencies:1ms = 1577ms
+  [728] ./~/rxjs/operator/toPromise.js 860 bytes {2} [built]
+        [] -> factory:787ms building:737ms dependencies:1ms = 1525ms
+  [729] ./~/rxjs/util/UnsubscriptionError.js 1.07 kB {2} [built]
+        [] -> factory:152ms building:424ms = 576ms
+  [730] ./~/rxjs/util/isObject.js 151 bytes {2} [built]
+        [] -> factory:151ms building:425ms = 576ms
+  [731] ./~/rxjs/util/isScheduler.js 178 bytes {2} [built]
+        [] -> factory:84ms building:357ms = 441ms
+  [732] ./~/rxjs/util/toSubscriber.js 707 bytes {2} [built]
+        [] -> factory:465ms building:968ms dependencies:0ms = 1433ms
+  [733] ./~/rxjs/util/tryCatch.js 422 bytes {2} [built]
+        [] -> factory:151ms building:426ms dependencies:0ms = 577ms
+  [773] multi vendor 40 bytes {2} [built]
+         factory:0ms building:0ms dependencies:38ms = 38ms
+chunk    {3} main.bundle.js, main.map (main) 20.3 kB {2} [initial] [rendered]
+  [222] ./src/app/app.service.ts 1.25 kB {3} [built]
+        [] -> factory:56ms building:773ms dependencies:1ms = 830ms
+  [347] ./src/app/about/index.ts 156 bytes {3} [built]
+        [] -> factory:435ms building:476ms = 911ms
+  [348] ./src/app/environment.ts 1.17 kB {3} [built]
+        [] -> factory:32ms building:402ms dependencies:25ms = 459ms
+  [349] ./src/app/home/index.ts 155 bytes {3} [built]
+        [] -> factory:435ms building:475ms = 910ms
+  [350] ./src/app/no-content/index.ts 161 bytes {3} [built]
+        [] -> factory:436ms building:478ms = 914ms
+  [413] ./src/main.browser.ts 1.8 kB {3} [built]
+        [] -> factory:95ms building:1567ms dependencies:479ms = 2141ms
+  [514] ./src/app/about/about.component.ts 2.12 kB {3} [built]
+        [] -> factory:622ms building:725ms dependencies:4ms = 1351ms
+  [515] ./src/app/app.component.ts 2.35 kB {3} [built]
+        [] -> factory:54ms building:761ms dependencies:5ms = 820ms
+  [516] ./src/app/app.module.ts 3.59 kB {3} [built]
+        [] -> factory:7ms building:672ms dependencies:36ms = 715ms
+  [517] ./src/app/app.resolver.ts 664 bytes {3} [built]
+        [] -> factory:55ms building:780ms dependencies:71ms = 906ms
+  [518] ./src/app/app.routes.ts 551 bytes {3} [built]
+        [] -> factory:53ms building:745ms dependencies:5ms = 803ms
+  [519] ./src/app/home/home.component.ts 1.96 kB {3} [built]
+        [] -> factory:620ms building:785ms dependencies:4ms = 1409ms
+  [520] ./src/app/home/title/index.ts 154 bytes {3} [built]
+        [] -> factory:837ms building:373ms = 1210ms
+  [521] ./src/app/home/title/title.service.ts 757 bytes {3} [built]
+        [] -> factory:132ms building:300ms dependencies:2ms = 434ms
+  [522] ./src/app/home/x-large/index.ts 158 bytes {3} [built]
+        [] -> factory:437ms building:478ms = 915ms
+  [523] ./src/app/home/x-large/x-large.directive.ts 1.04 kB {3} [built]
+        [] -> factory:626ms building:785ms dependencies:1ms = 1412ms
+  [524] ./src/app/index.ts 159 bytes {3} [built]
+        [] -> factory:385ms building:101ms = 486ms
+  [525] ./src/app/no-content/no-content.component.ts 508 bytes {3} [built]
+        [] -> factory:622ms building:786ms dependencies:1ms = 1409ms
+  [712] ./src/app/home/home.component.html 1.34 kB {3} [built]
+        [] -> factory:1277ms building:106ms = 1383ms
+  [718] ./~/rxjs/add/observable/of.js 173 bytes {3} [built]
+        [] -> factory:85ms building:1321ms dependencies:1ms = 1407ms
+  [771] multi main 40 bytes {3} [built]
+         factory:0ms building:1ms dependencies:37ms = 38ms
+chunk    {4} polyfills.bundle.js, polyfills.map (polyfills) 467 kB [entry] [rendered]
+    [2] ./~/core-js/modules/_export.js 1.6 kB {4} [built]
+        [] -> factory:515ms building:350ms dependencies:1ms = 866ms
+    [3] ./~/core-js/modules/_an-object.js 149 bytes {4} [built]
+        [] -> factory:533ms building:365ms dependencies:0ms = 898ms
+    [4] ./~/inherits/inherits_browser.js 672 bytes {4} [built]
+        [] -> factory:1462ms building:785ms = 2247ms
+    [5] ./~/core-js/modules/_fails.js 99 bytes {4} [built]
+        [] -> factory:524ms building:341ms = 865ms
+    [7] ./~/core-js/modules/_is-object.js 107 bytes {4} [built]
+        [] -> factory:554ms building:369ms = 923ms
+    [8] (webpack)/buildin/global.js 506 bytes {4} [built]
+        [] -> factory:0ms building:44ms = 44ms
+    [9] ./~/core-js/modules/_global.js 322 bytes {4} [built]
+        [] -> factory:516ms building:337ms = 853ms
+   [10] ./~/core-js/modules/_core.js 117 bytes {4} [built]
+        [] -> factory:399ms building:367ms = 766ms
+   [11] ./~/core-js/modules/_wks.js 368 bytes {4} [built]
+        [] -> factory:528ms building:346ms dependencies:1ms = 875ms
+   [12] ./~/debug/browser.js 3.76 kB {4} [built]
+        [] -> factory:1510ms building:749ms = 2259ms
+   [15] ./~/core-js/modules/_object-dp.js 608 bytes {4} [built]
+        [] -> factory:541ms building:361ms dependencies:2ms = 904ms
+   [17] ./~/core-js/modules/_descriptors.js 177 bytes {4} [built]
+        [] -> factory:520ms building:341ms dependencies:0ms = 861ms
+   [20] ./~/core-js/modules/_to-length.js 217 bytes {4} [built]
+        [] -> factory:538ms building:384ms dependencies:0ms = 922ms
+   [21] ./~/sockjs-client/lib/event/emitter.js 1.27 kB {4} [built]
+        [] -> factory:901ms building:509ms dependencies:1ms = 1411ms
+   [23] ./~/core-js/modules/_has.js 117 bytes {4} [built]
+        [] -> factory:518ms building:338ms = 856ms
+   [26] ./~/core-js/modules/_redefine.js 1.05 kB {4} [built]
+        [] -> factory:522ms building:340ms dependencies:2ms = 864ms
+   [27] ./~/core-js/modules/_string-html.js 696 bytes {4} [built]
+        [] -> factory:535ms building:389ms dependencies:848ms = 1772ms
+   [28] ./~/core-js/modules/_hide.js 288 bytes {4} [built]
+        [] -> factory:546ms building:365ms dependencies:1ms = 912ms
+   [29] ./~/core-js/modules/_to-object.js 129 bytes {4} [built]
+        [] -> factory:542ms building:363ms dependencies:912ms = 1817ms
+   [30] ./~/sockjs-client/lib/utils/url.js 975 bytes {4} [built]
+        [] -> factory:757ms building:740ms dependencies:14ms = 1511ms
+   [34] ./~/core-js/modules/_strict-method.js 187 bytes {4} [built]
+        [] -> factory:487ms building:401ms dependencies:1ms = 889ms
+   [35] ./~/core-js/modules/_to-iobject.js 213 bytes {4} [built]
+        [] -> factory:536ms building:361ms dependencies:0ms = 897ms
+   [42] ./~/core-js/modules/_array-methods.js 1.56 kB {4} [built]
+        [] -> factory:476ms building:400ms dependencies:2ms = 878ms
+   [43] ./~/core-js/modules/_object-gpo.js 497 bytes {4} [built]
+        [] -> factory:543ms building:365ms dependencies:908ms = 1816ms
+   [44] ./~/core-js/modules/_object-sap.js 368 bytes {4} [built]
+        [] -> factory:545ms building:367ms dependencies:1ms = 913ms
+   [49] ./~/core-js/modules/_defined.js 157 bytes {4} [built]
+        [] -> factory:925ms building:496ms = 1421ms
+   [50] ./~/core-js/modules/_metadata.js 1.78 kB {4} [built]
+        [] -> factory:364ms building:482ms dependencies:1ms = 847ms
+   [51] ./~/core-js/modules/_object-gopd.js 607 bytes {4} [built]
+        [] -> factory:540ms building:364ms dependencies:920ms = 1824ms
+   [52] ./~/core-js/modules/_typed-array.js 18.8 kB {4} [built]
+        [] -> factory:417ms building:452ms dependencies:766ms = 1635ms
+   [54] ./~/json3/lib/json3.js 40.1 kB {4} [built]
+        [] -> factory:1812ms building:506ms = 2318ms
+   [60] ./~/core-js/modules/_a-function.js 120 bytes {4} [built]
+        [] -> factory:488ms building:400ms = 888ms
+   [61] ./~/core-js/modules/_meta.js 1.55 kB {4} [built]
+        [] -> factory:523ms building:344ms dependencies:1ms = 868ms
+   [62] ./~/core-js/modules/_property-desc.js 183 bytes {4} [built]
+        [] -> factory:538ms building:362ms = 900ms
+   [63] ./~/core-js/modules/_to-integer.js 158 bytes {4} [built]
+        [] -> factory:519ms building:391ms = 910ms
+   [64] ./~/core-js/modules/_to-primitive.js 644 bytes {4} [built]
+        [] -> factory:537ms building:362ms dependencies:0ms = 899ms
+   [66] ./~/sockjs-client/lib/utils/event.js 2 kB {4} [built]
+        [] -> factory:757ms building:738ms dependencies:1ms = 1496ms
+   [72] ./~/core-js/modules/_cof.js 103 bytes {4} [built]
+        [] -> factory:517ms building:395ms = 912ms
+   [73] ./~/core-js/modules/_ctx.js 505 bytes {4} [built]
+        [] -> factory:488ms building:396ms dependencies:1ms = 885ms
+   [74] ./~/core-js/modules/_object-create.js 1.52 kB {4} [built]
+        [] -> factory:521ms building:339ms dependencies:2ms = 862ms
+   [75] ./~/core-js/modules/_object-gopn.js 290 bytes {4} [built]
+        [] -> factory:543ms building:364ms dependencies:913ms = 1820ms
+   [76] ./~/core-js/modules/_to-index.js 230 bytes {4} [built]
+        [] -> factory:538ms building:385ms dependencies:0ms = 923ms
+   [77] ./~/core-js/modules/_uid.js 158 bytes {4} [built]
+        [] -> factory:527ms building:342ms = 869ms
+   [78] ./~/core-js/modules/es6.object.to-string.js 319 bytes {4} [built]
+        [] -> factory:397ms building:379ms dependencies:490ms = 1266ms
+   [86] ./~/core-js/modules/_iterators.js 20 bytes {4} [built]
+        [] -> factory:454ms building:408ms = 862ms
+   [87] ./~/core-js/modules/_object-keys.js 225 bytes {4} [built]
+        [] -> factory:543ms building:365ms dependencies:917ms = 1825ms
+   [89] ./~/sockjs-client/lib/transport/lib/ajax-based.js 1.31 kB {4} [built]
+        [] -> factory:684ms building:610ms dependencies:4ms = 1298ms
+   [90] ./~/sockjs-client/lib/utils/random.js 746 bytes {4} [built]
+        [] -> factory:756ms building:712ms = 1468ms
+   [91] (webpack)-dev-server/client?http://localhost:3000 4.63 kB {4} [built]
+        [] -> factory:37ms building:35ms = 72ms
+  [107] ./~/core-js/modules/_add-to-unscopables.js 292 bytes {4} [built]
+        [] -> factory:471ms building:406ms dependencies:1ms = 878ms
+  [108] ./~/core-js/modules/_an-instance.js 232 bytes {4} [built]
+        [] -> factory:812ms building:552ms = 1364ms
+  [109] ./~/core-js/modules/_iobject.js 236 bytes {4} [built]
+        [] -> factory:487ms building:400ms dependencies:1ms = 888ms
+  [110] ./~/core-js/modules/_library.js 23 bytes {4} [built]
+        [] -> factory:545ms building:365ms = 910ms
+  [111] ./~/core-js/modules/_redefine-all.js 164 bytes {4} [built]
+        [] -> factory:810ms building:551ms dependencies:0ms = 1361ms
+  [112] ./~/core-js/modules/_set-species.js 367 bytes {4} [built]
+        [] -> factory:461ms building:408ms dependencies:1ms = 870ms
+  [113] ./~/core-js/modules/_set-to-string-tag.js 253 bytes {4} [built]
+        [] -> factory:526ms building:344ms dependencies:1ms = 871ms
+  [115] ./~/sockjs-client/lib/transport/sender/xhr-local.js 352 bytes {4} [built]
+        [] -> factory:1202ms building:651ms dependencies:1ms = 1854ms
+  [116] ./~/sockjs-client/lib/utils/browser.js 560 bytes {4} [built]
+        [] -> factory:759ms building:745ms dependencies:0ms = 1504ms
+  [117] ./~/sockjs-client/lib/utils/iframe.js 5.06 kB {4} [built]
+        [] -> factory:895ms building:547ms dependencies:3ms = 1445ms
+  [149] ./~/core-js/modules/_collection.js 3.4 kB {4} [built]
+        [] -> factory:437ms building:427ms dependencies:796ms = 1660ms
+  [150] ./~/core-js/modules/_fix-re-wks.js 944 bytes {4} [built]
+        [] -> factory:530ms building:389ms dependencies:846ms = 1765ms
+  [151] ./~/core-js/modules/_for-of.js 1.19 kB {4} [built]
+        [] -> factory:813ms building:549ms dependencies:2ms = 1364ms
+  [152] ./~/core-js/modules/_object-gops.js 41 bytes {4} [built]
+        [] -> factory:545ms building:364ms = 909ms
+  [153] ./~/core-js/modules/_object-pie.js 36 bytes {4} [built]
+        [] -> factory:544ms building:366ms = 910ms
+  [154] ./~/core-js/modules/_shared.js 198 bytes {4} [built]
+        [] -> factory:526ms building:339ms dependencies:1ms = 866ms
+  [155] ./~/core-js/modules/_string-trim.js 894 bytes {4} [built]
+        [] -> factory:538ms building:367ms dependencies:875ms = 1780ms
+  [156] ./~/core-js/modules/_typed.js 671 bytes {4} [built]
+        [] -> factory:423ms building:435ms dependencies:1ms = 859ms
+  [157] ./~/core-js/modules/es6.array.iterator.js 1.13 kB {4} [built]
+        [] -> factory:461ms building:413ms dependencies:450ms = 1324ms
+  [158] ./~/core-js/modules/es6.string.iterator.js 523 bytes {4} [built]
+        [] -> factory:398ms building:379ms = 777ms
+  [160] ./~/sockjs-client/lib/transport/receiver/xhr.js 1.58 kB {4} [built]
+        [] -> factory:728ms building:751ms dependencies:3ms = 1482ms
+  [161] ./~/sockjs-client/lib/transport/sender/xhr-cors.js 343 bytes {4} [built]
+        [] -> factory:1201ms building:657ms dependencies:313ms = 2171ms
+  [224] ./~/core-js/modules/_array-fill.js 610 bytes {4} [built]
+        [] -> factory:469ms building:406ms dependencies:1ms = 876ms
+  [225] ./~/core-js/modules/_array-includes.js 788 bytes {4} [built]
+        [] -> factory:469ms building:403ms dependencies:1ms = 873ms
+  [226] ./~/core-js/modules/_classof.js 709 bytes {4} [built]
+        [] -> factory:539ms building:367ms dependencies:0ms = 906ms
+  [227] ./~/core-js/modules/_enum-bug-keys.js 159 bytes {4} [built]
+        [] -> factory:966ms building:493ms = 1459ms
+  [228] ./~/core-js/modules/_fails-is-regexp.js 244 bytes {4} [built]
+        [] -> factory:537ms building:388ms dependencies:0ms = 925ms
+  [229] ./~/core-js/modules/_flags.js 375 bytes {4} [built]
+        [] -> factory:458ms building:409ms dependencies:0ms = 867ms
+  [230] ./~/core-js/modules/_inherit-if-required.js 331 bytes {4} [built]
+        [] -> factory:518ms building:397ms dependencies:1ms = 916ms
+  [231] ./~/core-js/modules/_is-array-iter.js 277 bytes {4} [built]
+        [] -> factory:489ms building:397ms dependencies:1ms = 887ms
+  [232] ./~/core-js/modules/_is-array.js 145 bytes {4} [built]
+        [] -> factory:532ms building:362ms dependencies:0ms = 894ms
+  [233] ./~/core-js/modules/_is-regexp.js 292 bytes {4} [built]
+        [] -> factory:525ms building:390ms dependencies:1ms = 916ms
+  [234] ./~/core-js/modules/_iter-define.js 2.82 kB {4} [built]
+        [] -> factory:538ms building:385ms dependencies:3ms = 926ms
+  [235] ./~/core-js/modules/_iter-detect.js 582 bytes {4} [built]
+        [] -> factory:491ms building:399ms dependencies:1ms = 891ms
+  [236] ./~/core-js/modules/_math-expm1.js 341 bytes {4} [built]
+        [] -> factory:499ms building:396ms = 895ms
+  [237] ./~/core-js/modules/_math-sign.js 131 bytes {4} [built]
+        [] -> factory:502ms building:397ms = 899ms
+  [238] ./~/core-js/modules/_set-proto.js 893 bytes {4} [built]
+        [] -> factory:538ms building:366ms dependencies:2ms = 906ms
+  [239] ./~/core-js/modules/_shared-key.js 158 bytes {4} [built]
+        [] -> factory:966ms building:491ms dependencies:1ms = 1458ms
+  [240] ./~/core-js/modules/_string-context.js 309 bytes {4} [built]
+        [] -> factory:536ms building:390ms dependencies:849ms = 1775ms
+  [241] ./~/core-js/modules/_string-ws.js 169 bytes {4} [built]
+        [] -> factory:885ms building:543ms = 1428ms
+  [242] ./~/core-js/modules/_typed-buffer.js 9.59 kB {4} [built]
+        [] -> factory:424ms building:440ms dependencies:779ms = 1643ms
+  [243] ./~/core-js/modules/core.get-iterator-method.js 293 bytes {4} [built]
+        [] -> factory:491ms building:397ms dependencies:1ms = 889ms
+  [244] ./~/core-js/modules/web.dom.iterable.js 881 bytes {4} [built]
+        [] -> factory:458ms building:422ms dependencies:441ms = 1321ms
+  [257] ./~/sockjs-client/lib/event/event.js 477 bytes {4} [built]
+        [] -> factory:760ms building:747ms = 1507ms
+  [258] ./~/sockjs-client/lib/transport/lib/iframe-wrap.js 981 bytes {4} [built]
+        [] -> factory:725ms building:739ms dependencies:22ms = 1486ms
+  [259] ./~/sockjs-client/lib/transport/sender/xdr.js 2.46 kB {4} [built]
+        [] -> factory:1200ms building:646ms dependencies:6ms = 1852ms
+  [260] ./~/sockjs-client/lib/utils/object.js 532 bytes {4} [built]
+        [] -> factory:758ms building:745ms = 1503ms
+  [261] ./~/url-parse/index.js 9.92 kB {4} [built]
+        [] -> factory:1466ms building:791ms = 2257ms
+  [351] ./~/core-js/modules/_a-number-value.js 153 bytes {4} [built]
+        [] -> factory:519ms building:395ms dependencies:0ms = 914ms
+  [352] ./~/core-js/modules/_array-copy-within.js 833 bytes {4} [built]
+        [] -> factory:470ms building:403ms dependencies:2ms = 875ms
+  [353] ./~/core-js/modules/_array-reduce.js 816 bytes {4} [built]
+        [] -> factory:471ms building:402ms dependencies:1ms = 874ms
+  [354] ./~/core-js/modules/_bind.js 855 bytes {4} [built]
+        [] -> factory:521ms building:395ms dependencies:1ms = 917ms
+  [355] ./~/core-js/modules/_collection-strong.js 4.83 kB {4} [built]
+        [] -> factory:436ms building:410ms dependencies:798ms = 1644ms
+  [356] ./~/core-js/modules/_collection-weak.js 2.69 kB {4} [built]
+        [] -> factory:432ms building:431ms dependencies:791ms = 1654ms
+  [357] ./~/core-js/modules/_create-property.js 270 bytes {4} [built]
+        [] -> factory:490ms building:401ms dependencies:1ms = 892ms
+  [358] ./~/core-js/modules/_dom-create.js 286 bytes {4} [built]
+        [] -> factory:967ms building:492ms dependencies:1ms = 1460ms
+  [359] ./~/core-js/modules/_html.js 75 bytes {4} [built]
+        [] -> factory:488ms building:400ms dependencies:0ms = 888ms
+  [360] ./~/core-js/modules/_ie8-dom-define.js 192 bytes {4} [built]
+        [] -> factory:921ms building:494ms dependencies:1ms = 1416ms
+  [361] ./~/core-js/modules/_is-integer.js 206 bytes {4} [built]
+        [] -> factory:514ms building:393ms dependencies:1ms = 908ms
+  [362] ./~/core-js/modules/_iter-call.js 403 bytes {4} [built]
+        [] -> factory:488ms building:397ms dependencies:1ms = 886ms
+  [363] ./~/core-js/modules/_iter-create.js 528 bytes {4} [built]
+        [] -> factory:384ms building:477ms dependencies:2ms = 863ms
+  [364] ./~/core-js/modules/_iter-step.js 81 bytes {4} [built]
+        [] -> factory:453ms building:409ms = 862ms
+  [365] ./~/core-js/modules/_math-log1p.js 152 bytes {4} [built]
+        [] -> factory:504ms building:397ms = 901ms
+  [366] ./~/core-js/modules/_object-assign.js 1.16 kB {4} [built]
+        [] -> factory:552ms building:359ms dependencies:2ms = 913ms
+  [367] ./~/core-js/modules/_object-dps.js 404 bytes {4} [built]
+        [] -> factory:544ms building:364ms dependencies:1ms = 909ms
+  [368] ./~/core-js/modules/_object-gopn-ext.js 603 bytes {4} [built]
+        [] -> factory:539ms building:361ms dependencies:1ms = 901ms
+  [369] ./~/core-js/modules/_object-keys-internal.js 546 bytes {4} [built]
+        [] -> factory:917ms building:491ms dependencies:1ms = 1409ms
+  [370] ./~/core-js/modules/_parse-float.js 361 bytes {4} [built]
+        [] -> factory:521ms building:391ms dependencies:852ms = 1764ms
+  [371] ./~/core-js/modules/_parse-int.js 403 bytes {4} [built]
+        [] -> factory:524ms building:392ms dependencies:852ms = 1768ms
+  [372] ./~/core-js/modules/_same-value.js 142 bytes {4} [built]
+        [] -> factory:538ms building:366ms = 904ms
+  [373] ./~/core-js/modules/_species-constructor.js 340 bytes {4} [built]
+        [] -> factory:424ms building:432ms dependencies:1ms = 857ms
+  [374] ./~/core-js/modules/_string-at.js 611 bytes {4} [built]
+        [] -> factory:537ms building:383ms dependencies:858ms = 1778ms
+  [375] ./~/core-js/modules/_string-repeat.js 366 bytes {4} [built]
+        [] -> factory:537ms building:388ms dependencies:851ms = 1776ms
+  [376] ./~/core-js/modules/_wks-ext.js 30 bytes {4} [built]
+        [] -> factory:529ms building:340ms dependencies:0ms = 869ms
+  [377] ./~/core-js/modules/es6.map.js 541 bytes {4} [built]
+        [] -> factory:458ms building:426ms dependencies:435ms = 1319ms
+  [378] ./~/core-js/modules/es6.regexp.flags.js 198 bytes {4} [built]
+        [] -> factory:458ms building:420ms dependencies:443ms = 1321ms
+  [379] ./~/core-js/modules/es6.regexp.match.js 381 bytes {4} [built]
+        [] -> factory:415ms building:375ms = 790ms
+  [380] ./~/core-js/modules/es6.regexp.replace.js 491 bytes {4} [built]
+        [] -> factory:416ms building:376ms dependencies:528ms = 1320ms
+  [381] ./~/core-js/modules/es6.regexp.search.js 390 bytes {4} [built]
+        [] -> factory:417ms building:380ms dependencies:524ms = 1321ms
+  [382] ./~/core-js/modules/es6.regexp.split.js 3.32 kB {4} [built]
+        [] -> factory:431ms building:365ms dependencies:525ms = 1321ms
+  [383] ./~/core-js/modules/es6.set.js 396 bytes {4} [built]
+        [] -> factory:459ms building:426ms = 885ms
+  [384] ./~/core-js/modules/es6.symbol.js 8.93 kB {4} [built]
+        [] -> factory:383ms building:355ms dependencies:516ms = 1254ms
+  [385] ./~/core-js/modules/es6.weak-map.js 1.8 kB {4} [built]
+        [] -> factory:459ms building:434ms dependencies:429ms = 1322ms
+  [399] ./~/sockjs-client/lib/event/eventtarget.js 1.85 kB {4} [built]
+        [] -> factory:761ms building:745ms = 1506ms
+  [400] ./~/sockjs-client/lib/info-ajax.js 1.03 kB {4} [built]
+        [] -> factory:905ms building:508ms dependencies:4ms = 1417ms
+  [401] ./~/sockjs-client/lib/info-iframe-receiver.js 791 bytes {4} [built]
+        [] -> factory:894ms building:519ms dependencies:4ms = 1417ms
+  [402] ./~/sockjs-client/lib/location.js 177 bytes {4} [built]
+        [] -> factory:543ms building:367ms dependencies:1ms = 911ms
+  [403] ./~/sockjs-client/lib/transport/browser/abstract-xhr.js 4.8 kB {4} [built]
+        [] -> factory:318ms building:431ms dependencies:5ms = 754ms
+  [404] ./~/sockjs-client/lib/transport/browser/eventsource.js 37 bytes {4} [built]
+        [] -> factory:727ms building:760ms dependencies:1ms = 1488ms
+  [405] ./~/sockjs-client/lib/transport/eventsource.js 766 bytes {4} [built]
+        [] -> factory:721ms building:727ms dependencies:688ms = 2136ms
+  [406] ./~/sockjs-client/lib/transport/htmlfile.js 710 bytes {4} [built]
+        [] -> factory:722ms building:728ms dependencies:687ms = 2137ms
+  [407] ./~/sockjs-client/lib/transport/iframe.js 3.83 kB {4} [built]
+        [] -> factory:668ms building:616ms dependencies:6ms = 1290ms
+  [408] ./~/sockjs-client/lib/transport/lib/sender-receiver.js 1.15 kB {4} [built]
+        [] -> factory:676ms building:611ms dependencies:3ms = 1290ms
+  [409] ./~/sockjs-client/lib/transport/xdr-streaming.js 984 bytes {4} [built]
+        [] -> factory:720ms building:732ms dependencies:721ms = 2173ms
+  [410] ./~/sockjs-client/lib/transport/xhr-polling.js 894 bytes {4} [built]
+        [] -> factory:723ms building:738ms dependencies:712ms = 2173ms
+  [411] ./~/sockjs-client/lib/version.js 26 bytes {4} [built]
+        [] -> factory:544ms building:367ms = 911ms
+  [414] ./src/polyfills.browser.ts 1.18 kB {4} [built]
+        [] -> factory:92ms building:831ms = 923ms
+  [527] ./~/ansi-regex/index.js 135 bytes {4} [built]
+        [] -> factory:247ms building:578ms = 825ms
+  [542] ./~/core-js/es6/array.js 944 bytes {4} [built]
+        [] -> factory:1186ms building:76ms dependencies:380ms = 1642ms
+  [543] ./~/core-js/es6/date.js 231 bytes {4} [built]
+        [] -> factory:1184ms building:72ms = 1256ms
+  [544] ./~/core-js/es6/function.js 185 bytes {4} [built]
+        [] -> factory:1181ms building:69ms dependencies:387ms = 1637ms
+  [545] ./~/core-js/es6/map.js 207 bytes {4} [built]
+        [] -> factory:1187ms building:86ms dependencies:455ms = 1728ms
+  [546] ./~/core-js/es6/math.js 690 bytes {4} [built]
+        [] -> factory:1184ms building:74ms dependencies:379ms = 1637ms
+  [547] ./~/core-js/es6/number.js 602 bytes {4} [built]
+        [] -> factory:1183ms building:69ms dependencies:385ms = 1637ms
+  [548] ./~/core-js/es6/object.js 881 bytes {4} [built]
+        [] -> factory:1179ms building:58ms = 1237ms
+  [549] ./~/core-js/es6/parse-float.js 95 bytes {4} [built]
+        [] -> factory:1181ms building:69ms dependencies:387ms = 1637ms
+  [550] ./~/core-js/es6/parse-int.js 91 bytes {4} [built]
+        [] -> factory:1181ms building:68ms dependencies:388ms = 1637ms
+  [551] ./~/core-js/es6/reflect.js 717 bytes {4} [built]
+        [] -> factory:1191ms building:99ms dependencies:348ms = 1638ms
+  [552] ./~/core-js/es6/regexp.js 345 bytes {4} [built]
+        [] -> factory:1186ms building:82ms dependencies:406ms = 1674ms
+  [553] ./~/core-js/es6/set.js 207 bytes {4} [built]
+        [] -> factory:1187ms building:82ms dependencies:373ms = 1642ms
+  [554] ./~/core-js/es6/string.js 1.13 kB {4} [built]
+        [] -> factory:1184ms building:59ms dependencies:394ms = 1637ms
+  [555] ./~/core-js/es6/symbol.js 130 bytes {4} [built]
+        [] -> factory:1178ms building:64ms dependencies:395ms = 1637ms
+  [556] ./~/core-js/es6/typed.js 596 bytes {4} [built]
+        [] -> factory:1190ms building:98ms dependencies:350ms = 1638ms
+  [557] ./~/core-js/es6/weak-map.js 175 bytes {4} [built]
+        [] -> factory:1188ms building:83ms dependencies:453ms = 1724ms
+  [558] ./~/core-js/es6/weak-set.js 173 bytes {4} [built]
+        [] -> factory:1189ms building:81ms dependencies:457ms = 1727ms
+  [559] ./~/core-js/es7/reflect.js 510 bytes {4} [built]
+        [] -> factory:1192ms building:103ms dependencies:343ms = 1638ms
+  [560] ./~/core-js/modules/_array-from-iterable.js 170 bytes {4} [built]
+        [] -> factory:348ms building:483ms dependencies:732ms = 1563ms
+  [561] ./~/core-js/modules/_array-species-constructor.js 464 bytes {4} [built]
+        [] -> factory:563ms building:182ms dependencies:26ms = 771ms
+  [562] ./~/core-js/modules/_array-species-create.js 220 bytes {4} [built]
+        [] -> factory:828ms building:549ms = 1377ms
+  [563] ./~/core-js/modules/_date-to-primitive.js 318 bytes {4} [built]
+        [] -> factory:505ms building:394ms dependencies:1ms = 900ms
+  [564] ./~/core-js/modules/_enum-keys.js 472 bytes {4} [built]
+        [] -> factory:531ms building:364ms dependencies:1ms = 896ms
+  [565] ./~/core-js/modules/_invoke.js 709 bytes {4} [built]
+        [] -> factory:849ms building:550ms = 1399ms
+  [566] ./~/core-js/modules/_keyof.js 307 bytes {4} [built]
+        [] -> factory:530ms building:346ms dependencies:17ms = 893ms
+  [567] ./~/core-js/modules/_own-keys.js 418 bytes {4} [built]
+        [] -> factory:366ms building:480ms dependencies:2ms = 848ms
+  [568] ./~/core-js/modules/_wks-define.js 439 bytes {4} [built]
+        [] -> factory:530ms building:342ms dependencies:1ms = 873ms
+  [569] ./~/core-js/modules/es6.array.copy-within.js 234 bytes {4} [built]
+        [] -> factory:456ms building:396ms dependencies:374ms = 1226ms
+  [570] ./~/core-js/modules/es6.array.every.js 368 bytes {4} [built]
+        [] -> factory:452ms building:397ms dependencies:472ms = 1321ms
+  [571] ./~/core-js/modules/es6.array.fill.js 212 bytes {4} [built]
+        [] -> factory:457ms building:399ms dependencies:467ms = 1323ms
+  [572] ./~/core-js/modules/es6.array.filter.js 373 bytes {4} [built]
+        [] -> factory:450ms building:396ms dependencies:475ms = 1321ms
+  [573] ./~/core-js/modules/es6.array.find-index.js 543 bytes {4} [built]
+        [] -> factory:459ms building:403ms dependencies:462ms = 1324ms
+  [574] ./~/core-js/modules/es6.array.find.js 523 bytes {4} [built]
+        [] -> factory:458ms building:401ms dependencies:465ms = 1324ms
+  [575] ./~/core-js/modules/es6.array.for-each.js 403 bytes {4} [built]
+        [] -> factory:449ms building:395ms dependencies:474ms = 1318ms
+  [576] ./~/core-js/modules/es6.array.from.js 1.67 kB {4} [built]
+        [] -> factory:445ms building:379ms dependencies:469ms = 1293ms
+  [577] ./~/core-js/modules/es6.array.index-of.js 605 bytes {4} [built]
+        [] -> factory:455ms building:400ms dependencies:464ms = 1319ms
+  [578] ./~/core-js/modules/es6.array.is-array.js 142 bytes {4} [built]
+        [] -> factory:444ms building:383ms dependencies:419ms = 1246ms
+  [579] ./~/core-js/modules/es6.array.join.js 451 bytes {4} [built]
+        [] -> factory:446ms building:384ms dependencies:420ms = 1250ms
+  [580] ./~/core-js/modules/es6.array.last-index-of.js 973 bytes {4} [built]
+        [] -> factory:455ms building:398ms dependencies:466ms = 1319ms
+  [581] ./~/core-js/modules/es6.array.map.js 359 bytes {4} [built]
+        [] -> factory:450ms building:395ms dependencies:476ms = 1321ms
+  [582] ./~/core-js/modules/es6.array.of.js 599 bytes {4} [built]
+        [] -> factory:445ms building:381ms dependencies:489ms = 1315ms
+  [583] ./~/core-js/modules/es6.array.reduce-right.js 424 bytes {4} [built]
+        [] -> factory:454ms building:397ms dependencies:471ms = 1322ms
+  [584] ./~/core-js/modules/es6.array.reduce.js 405 bytes {4} [built]
+        [] -> factory:453ms building:397ms dependencies:469ms = 1319ms
+  [585] ./~/core-js/modules/es6.array.slice.js 909 bytes {4} [built]
+        [] -> factory:447ms building:381ms dependencies:479ms = 1307ms
+  [586] ./~/core-js/modules/es6.array.some.js 364 bytes {4} [built]
+        [] -> factory:451ms building:396ms dependencies:474ms = 1321ms
+  [587] ./~/core-js/modules/es6.array.sort.js 648 bytes {4} [built]
+        [] -> factory:448ms building:383ms dependencies:487ms = 1318ms
+  [588] ./~/core-js/modules/es6.array.species.js 35 bytes {4} [built]
+        [] -> factory:460ms building:404ms = 864ms
+  [589] ./~/core-js/modules/es6.date.now.js 149 bytes {4} [built]
+        [] -> factory:432ms building:372ms dependencies:426ms = 1230ms
+  [590] ./~/core-js/modules/es6.date.to-iso-string.js 1.01 kB {4} [built]
+        [] -> factory:433ms building:373ms dependencies:438ms = 1244ms
+  [591] ./~/core-js/modules/es6.date.to-json.js 510 bytes {4} [built]
+        [] -> factory:433ms building:374ms dependencies:460ms = 1267ms
+  [592] ./~/core-js/modules/es6.date.to-primitive.js 189 bytes {4} [built]
+        [] -> factory:435ms building:374ms dependencies:457ms = 1266ms
+  [593] ./~/core-js/modules/es6.date.to-string.js 393 bytes {4} [built]
+        [] -> factory:434ms building:375ms dependencies:432ms = 1241ms
+  [594] ./~/core-js/modules/es6.function.bind.js 161 bytes {4} [built]
+        [] -> factory:426ms building:368ms dependencies:442ms = 1236ms
+  [595] ./~/core-js/modules/es6.function.has-instance.js 655 bytes {4} [built]
+        [] -> factory:428ms building:365ms dependencies:507ms = 1300ms
+  [596] ./~/core-js/modules/es6.function.name.js 652 bytes {4} [built]
+        [] -> factory:427ms building:365ms dependencies:475ms = 1267ms
+  [597] ./~/core-js/modules/es6.math.acosh.js 573 bytes {4} [built]
+        [] -> factory:433ms building:376ms dependencies:419ms = 1228ms
+  [598] ./~/core-js/modules/es6.math.asinh.js 339 bytes {4} [built]
+        [] -> factory:434ms building:376ms dependencies:419ms = 1229ms
+  [599] ./~/core-js/modules/es6.math.atanh.js 303 bytes {4} [built]
+        [] -> factory:435ms building:375ms dependencies:418ms = 1228ms
+  [600] ./~/core-js/modules/es6.math.cbrt.js 218 bytes {4} [built]
+        [] -> factory:436ms building:376ms dependencies:417ms = 1229ms
+  [601] ./~/core-js/modules/es6.math.clz32.js 206 bytes {4} [built]
+        [] -> factory:437ms building:377ms dependencies:415ms = 1229ms
+  [602] ./~/core-js/modules/es6.math.cosh.js 188 bytes {4} [built]
+        [] -> factory:437ms building:378ms dependencies:414ms = 1229ms
+  [603] ./~/core-js/modules/es6.math.expm1.js 184 bytes {4} [built]
+        [] -> factory:438ms building:378ms dependencies:413ms = 1229ms
+  [604] ./~/core-js/modules/es6.math.fround.js 743 bytes {4} [built]
+        [] -> factory:439ms building:379ms dependencies:496ms = 1314ms
+  [605] ./~/core-js/modules/es6.math.hypot.js 660 bytes {4} [built]
+        [] -> factory:441ms building:379ms dependencies:409ms = 1229ms
+  [606] ./~/core-js/modules/es6.math.imul.js 532 bytes {4} [built]
+        [] -> factory:441ms building:376ms dependencies:425ms = 1242ms
+  [607] ./~/core-js/modules/es6.math.log10.js 164 bytes {4} [built]
+        [] -> factory:442ms building:378ms dependencies:409ms = 1229ms
+  [608] ./~/core-js/modules/es6.math.log1p.js 126 bytes {4} [built]
+        [] -> factory:443ms building:378ms dependencies:493ms = 1314ms
+  [609] ./~/core-js/modules/es6.math.log2.js 160 bytes {4} [built]
+        [] -> factory:444ms building:379ms dependencies:406ms = 1229ms
+  [610] ./~/core-js/modules/es6.math.sign.js 123 bytes {4} [built]
+        [] -> factory:444ms building:378ms dependencies:493ms = 1315ms
+  [611] ./~/core-js/modules/es6.math.sinh.js 454 bytes {4} [built]
+        [] -> factory:445ms building:379ms dependencies:491ms = 1315ms
+  [612] ./~/core-js/modules/es6.math.tanh.js 318 bytes {4} [built]
+        [] -> factory:446ms building:379ms dependencies:490ms = 1315ms
+  [613] ./~/core-js/modules/es6.math.trunc.js 179 bytes {4} [built]
+        [] -> factory:447ms building:384ms dependencies:399ms = 1230ms
+  [614] ./~/core-js/modules/es6.number.constructor.js 2.93 kB {4} [built]
+        [] -> factory:427ms building:372ms dependencies:505ms = 1304ms
+  [615] ./~/core-js/modules/es6.number.epsilon.js 122 bytes {4} [built]
+        [] -> factory:429ms building:372ms dependencies:433ms = 1234ms
+  [616] ./~/core-js/modules/es6.number.is-finite.js 245 bytes {4} [built]
+        [] -> factory:430ms building:372ms dependencies:438ms = 1240ms
+  [617] ./~/core-js/modules/es6.number.is-integer.js 142 bytes {4} [built]
+        [] -> factory:431ms building:373ms dependencies:430ms = 1234ms
+  [618] ./~/core-js/modules/es6.number.is-nan.js 170 bytes {4} [built]
+        [] -> factory:432ms building:371ms dependencies:431ms = 1234ms
+  [619] ./~/core-js/modules/es6.number.is-safe-integer.js 298 bytes {4} [built]
+        [] -> factory:432ms building:373ms dependencies:513ms = 1318ms
+  [620] ./~/core-js/modules/es6.number.max-safe-integer.js 140 bytes {4} [built]
+        [] -> factory:433ms building:372ms dependencies:429ms = 1234ms
+  [621] ./~/core-js/modules/es6.number.min-safe-integer.js 142 bytes {4} [built]
+        [] -> factory:434ms building:373ms dependencies:427ms = 1234ms
+  [622] ./~/core-js/modules/es6.number.parse-float.js 228 bytes {4} [built]
+        [] -> factory:434ms building:374ms dependencies:506ms = 1314ms
+  [623] ./~/core-js/modules/es6.number.parse-int.js 219 bytes {4} [built]
+        [] -> factory:435ms building:374ms dependencies:504ms = 1313ms
+  [624] ./~/core-js/modules/es6.number.to-fixed.js 2.71 kB {4} [built]
+        [] -> factory:428ms building:368ms dependencies:511ms = 1307ms
+  [625] ./~/core-js/modules/es6.number.to-precision.js 615 bytes {4} [built]
+        [] -> factory:428ms building:373ms dependencies:515ms = 1316ms
+  [626] ./~/core-js/modules/es6.object.assign.js 159 bytes {4} [built]
+        [] -> factory:395ms building:367ms dependencies:486ms = 1248ms
+  [627] ./~/core-js/modules/es6.object.create.js 158 bytes {4} [built]
+        [] -> factory:384ms building:348ms = 732ms
+  [628] ./~/core-js/modules/es6.object.define-properties.js 214 bytes {4} [built]
+        [] -> factory:386ms building:359ms dependencies:514ms = 1259ms
+  [629] ./~/core-js/modules/es6.object.define-property.js 214 bytes {4} [built]
+        [] -> factory:385ms building:359ms dependencies:536ms = 1280ms
+  [630] ./~/core-js/modules/es6.object.freeze.js 266 bytes {4} [built]
+        [] -> factory:390ms building:368ms dependencies:530ms = 1288ms
+  [631] ./~/core-js/modules/es6.object.get-own-property-descriptor.js 353 bytes {4} [built]
+        [] -> factory:386ms building:360ms dependencies:542ms = 1288ms
+  [632] ./~/core-js/modules/es6.object.get-own-property-names.js 147 bytes {4} [built]
+        [] -> factory:389ms building:369ms dependencies:530ms = 1288ms
+  [633] ./~/core-js/modules/es6.object.get-prototype-of.js 275 bytes {4} [built]
+        [] -> factory:387ms building:356ms = 743ms
+  [634] ./~/core-js/modules/es6.object.is-extensible.js 263 bytes {4} [built]
+        [] -> factory:394ms building:370ms dependencies:549ms = 1313ms
+  [635] ./~/core-js/modules/es6.object.is-frozen.js 239 bytes {4} [built]
+        [] -> factory:393ms building:368ms dependencies:552ms = 1313ms
+  [636] ./~/core-js/modules/es6.object.is-sealed.js 239 bytes {4} [built]
+        [] -> factory:394ms building:368ms dependencies:551ms = 1313ms
+  [637] ./~/core-js/modules/es6.object.is.js 136 bytes {4} [built]
+        [] -> factory:396ms building:381ms dependencies:471ms = 1248ms
+  [638] ./~/core-js/modules/es6.object.keys.js 223 bytes {4} [built]
+        [] -> factory:388ms building:369ms dependencies:531ms = 1288ms
+  [639] ./~/core-js/modules/es6.object.prevent-extensions.js 333 bytes {4} [built]
+        [] -> factory:392ms building:368ms dependencies:553ms = 1313ms
+  [640] ./~/core-js/modules/es6.object.seal.js 255 bytes {4} [built]
+        [] -> factory:391ms building:368ms dependencies:553ms = 1312ms
+  [641] ./~/core-js/modules/es6.object.set-prototype-of.js 157 bytes {4} [built]
+        [] -> factory:396ms building:383ms dependencies:469ms = 1248ms
+  [642] ./~/core-js/modules/es6.parse-float.js 201 bytes {4} [built]
+        [] -> factory:425ms building:370ms dependencies:441ms = 1236ms
+  [643] ./~/core-js/modules/es6.parse-int.js 192 bytes {4} [built]
+        [] -> factory:425ms building:367ms dependencies:444ms = 1236ms
+  [644] ./~/core-js/modules/es6.reflect.apply.js 640 bytes {4} [built]
+        [] -> factory:451ms building:464ms dependencies:377ms = 1292ms
+  [645] ./~/core-js/modules/es6.reflect.construct.js 1.95 kB {4} [built]
+        [] -> factory:452ms building:453ms dependencies:386ms = 1291ms
+  [646] ./~/core-js/modules/es6.reflect.define-property.js 763 bytes {4} [built]
+        [] -> factory:453ms building:459ms dependencies:315ms = 1227ms
+  [647] ./~/core-js/modules/es6.reflect.delete-property.js 405 bytes {4} [built]
+        [] -> factory:453ms building:466ms dependencies:307ms = 1226ms
+  [648] ./~/core-js/modules/es6.reflect.enumerate.js 732 bytes {4} [built]
+        [] -> factory:454ms building:469ms dependencies:297ms = 1220ms
+  [649] ./~/core-js/modules/es6.reflect.get-own-property-descriptor.js 355 bytes {4} [built]
+        [] -> factory:456ms building:474ms dependencies:296ms = 1226ms
+  [650] ./~/core-js/modules/es6.reflect.get-prototype-of.js 287 bytes {4} [built]
+        [] -> factory:457ms building:476ms dependencies:301ms = 1234ms
+  [651] ./~/core-js/modules/es6.reflect.get.js 811 bytes {4} [built]
+        [] -> factory:455ms building:471ms dependencies:334ms = 1260ms
+  [652] ./~/core-js/modules/es6.reflect.has.js 195 bytes {4} [built]
+        [] -> factory:458ms building:477ms dependencies:265ms = 1200ms
+  [653] ./~/core-js/modules/es6.reflect.is-extensible.js 332 bytes {4} [built]
+        [] -> factory:459ms building:478ms dependencies:283ms = 1220ms
+  [654] ./~/core-js/modules/es6.reflect.own-keys.js 137 bytes {4} [built]
+        [] -> factory:459ms building:482ms dependencies:259ms = 1200ms
+  [655] ./~/core-js/modules/es6.reflect.prevent-extensions.js 437 bytes {4} [built]
+        [] -> factory:461ms building:478ms dependencies:281ms = 1220ms
+  [656] ./~/core-js/modules/es6.reflect.set-prototype-of.js 376 bytes {4} [built]
+        [] -> factory:463ms building:484ms dependencies:317ms = 1264ms
+  [657] ./~/core-js/modules/es6.reflect.set.js 1.19 kB {4} [built]
+        [] -> factory:462ms building:488ms dependencies:310ms = 1260ms
+  [658] ./~/core-js/modules/es6.regexp.constructor.js 1.71 kB {4} [built]
+        [] -> factory:456ms building:406ms dependencies:458ms = 1320ms
+  [659] ./~/core-js/modules/es6.regexp.to-string.js 821 bytes {4} [built]
+        [] -> factory:457ms building:416ms dependencies:448ms = 1321ms
+  [660] ./~/core-js/modules/es6.string.anchor.js 200 bytes {4} [built]
+        [] -> factory:403ms building:380ms = 783ms
+  [661] ./~/core-js/modules/es6.string.big.js 179 bytes {4} [built]
+        [] -> factory:404ms building:380ms dependencies:535ms = 1319ms
+  [662] ./~/core-js/modules/es6.string.blink.js 187 bytes {4} [built]
+        [] -> factory:405ms building:379ms dependencies:535ms = 1319ms
+  [663] ./~/core-js/modules/es6.string.bold.js 180 bytes {4} [built]
+        [] -> factory:405ms building:380ms dependencies:534ms = 1319ms
+  [664] ./~/core-js/modules/es6.string.code-point-at.js 250 bytes {4} [built]
+        [] -> factory:399ms building:379ms dependencies:537ms = 1315ms
+  [665] ./~/core-js/modules/es6.string.ends-with.js 840 bytes {4} [built]
+        [] -> factory:400ms building:380ms dependencies:532ms = 1312ms
+  [666] ./~/core-js/modules/es6.string.fixed.js 184 bytes {4} [built]
+        [] -> factory:406ms building:380ms dependencies:533ms = 1319ms
+  [667] ./~/core-js/modules/es6.string.fontcolor.js 216 bytes {4} [built]
+        [] -> factory:407ms building:379ms dependencies:533ms = 1319ms
+  [668] ./~/core-js/modules/es6.string.fontsize.js 209 bytes {4} [built]
+        [] -> factory:408ms building:380ms dependencies:531ms = 1319ms
+  [669] ./~/core-js/modules/es6.string.from-code-point.js 848 bytes {4} [built]
+        [] -> factory:396ms building:376ms dependencies:470ms = 1242ms
+  [670] ./~/core-js/modules/es6.string.includes.js 476 bytes {4} [built]
+        [] -> factory:401ms building:381ms dependencies:536ms = 1318ms
+  [671] ./~/core-js/modules/es6.string.italics.js 189 bytes {4} [built]
+        [] -> factory:409ms building:378ms dependencies:532ms = 1319ms
+  [672] ./~/core-js/modules/es6.string.link.js 192 bytes {4} [built]
+        [] -> factory:410ms building:378ms dependencies:531ms = 1319ms
+  [673] ./~/core-js/modules/es6.string.raw.js 516 bytes {4} [built]
+        [] -> factory:396ms building:378ms dependencies:495ms = 1269ms
+  [674] ./~/core-js/modules/es6.string.repeat.js 155 bytes {4} [built]
+        [] -> factory:402ms building:377ms dependencies:463ms = 1242ms
+  [675] ./~/core-js/modules/es6.string.small.js 188 bytes {4} [built]
+        [] -> factory:410ms building:379ms dependencies:530ms = 1319ms
+  [676] ./~/core-js/modules/es6.string.starts-with.js 767 bytes {4} [built]
+        [] -> factory:402ms building:379ms dependencies:536ms = 1317ms
+  [677] ./~/core-js/modules/es6.string.strike.js 192 bytes {4} [built]
+        [] -> factory:412ms building:380ms dependencies:528ms = 1320ms
+  [678] ./~/core-js/modules/es6.string.sub.js 180 bytes {4} [built]
+        [] -> factory:413ms building:377ms dependencies:530ms = 1320ms
+  [679] ./~/core-js/modules/es6.string.sup.js 180 bytes {4} [built]
+        [] -> factory:414ms building:377ms dependencies:529ms = 1320ms
+  [680] ./~/core-js/modules/es6.string.trim.js 163 bytes {4} [built]
+        [] -> factory:397ms building:378ms = 775ms
+  [681] ./~/core-js/modules/es6.typed.array-buffer.js 1.8 kB {4} [built]
+        [] -> factory:443ms building:439ms dependencies:418ms = 1300ms
+  [682] ./~/core-js/modules/es6.typed.data-view.js 159 bytes {4} [built]
+        [] -> factory:444ms building:444ms dependencies:418ms = 1306ms
+  [683] ./~/core-js/modules/es6.typed.float32-array.js 171 bytes {4} [built]
+        [] -> factory:451ms building:450ms dependencies:407ms = 1308ms
+  [684] ./~/core-js/modules/es6.typed.float64-array.js 171 bytes {4} [built]
+        [] -> factory:452ms building:459ms dependencies:397ms = 1308ms
+  [685] ./~/core-js/modules/es6.typed.int16-array.js 167 bytes {4} [built]
+        [] -> factory:448ms building:448ms dependencies:412ms = 1308ms
+  [686] ./~/core-js/modules/es6.typed.int32-array.js 167 bytes {4} [built]
+        [] -> factory:450ms building:448ms dependencies:410ms = 1308ms
+  [687] ./~/core-js/modules/es6.typed.int8-array.js 165 bytes {4} [built]
+        [] -> factory:445ms building:445ms = 890ms
+  [688] ./~/core-js/modules/es6.typed.uint16-array.js 169 bytes {4} [built]
+        [] -> factory:448ms building:452ms dependencies:408ms = 1308ms
+  [689] ./~/core-js/modules/es6.typed.uint32-array.js 169 bytes {4} [built]
+        [] -> factory:450ms building:453ms dependencies:405ms = 1308ms
+  [690] ./~/core-js/modules/es6.typed.uint8-array.js 167 bytes {4} [built]
+        [] -> factory:446ms building:446ms dependencies:416ms = 1308ms
+  [691] ./~/core-js/modules/es6.typed.uint8-clamped-array.js 180 bytes {4} [built]
+        [] -> factory:447ms building:448ms dependencies:413ms = 1308ms
+  [692] ./~/core-js/modules/es6.weak-set.js 373 bytes {4} [built]
+        [] -> factory:459ms building:431ms dependencies:432ms = 1322ms
+  [693] ./~/core-js/modules/es7.reflect.define-metadata.js 406 bytes {4} [built]
+        [] -> factory:459ms building:480ms dependencies:276ms = 1215ms
+  [694] ./~/core-js/modules/es7.reflect.delete-metadata.js 750 bytes {4} [built]
+        [] -> factory:459ms building:492ms dependencies:352ms = 1303ms
+  [695] ./~/core-js/modules/es7.reflect.get-metadata-keys.js 861 bytes {4} [built]
+        [] -> factory:461ms building:495ms dependencies:348ms = 1304ms
+  [696] ./~/core-js/modules/es7.reflect.get-metadata.js 796 bytes {4} [built]
+        [] -> factory:461ms building:492ms dependencies:350ms = 1303ms
+  [697] ./~/core-js/modules/es7.reflect.get-own-metadata-keys.js 400 bytes {4} [built]
+        [] -> factory:463ms building:500ms dependencies:341ms = 1304ms
+  [698] ./~/core-js/modules/es7.reflect.get-own-metadata.js 417 bytes {4} [built]
+        [] -> factory:462ms building:499ms dependencies:343ms = 1304ms
+  [699] ./~/core-js/modules/es7.reflect.has-metadata.js 713 bytes {4} [built]
+        [] -> factory:464ms building:502ms dependencies:338ms = 1304ms
+  [700] ./~/core-js/modules/es7.reflect.has-own-metadata.js 417 bytes {4} [built]
+        [] -> factory:464ms building:505ms dependencies:335ms = 1304ms
+  [701] ./~/core-js/modules/es7.reflect.metadata.js 551 bytes {4} [built]
+        [] -> factory:465ms building:507ms dependencies:332ms = 1304ms
+  [702] ./~/debug/debug.js 4.1 kB {4} [built]
+        [] -> factory:506ms building:337ms = 843ms
+  [703] ./~/events/events.js 8.33 kB {4} [built]
+        [] -> factory:106ms building:712ms = 818ms
+  [705] ./~/ms/index.js 2.33 kB {4} [built]
+        [] -> factory:762ms building:130ms = 892ms
+  [706] ./~/process/browser.js 5.3 kB {4} [built]
+        [] -> factory:645ms building:814ms = 1459ms
+  [707] ./~/punycode/punycode.js 14.7 kB {4} [built]
+        [] -> factory:419ms building:388ms dependencies:2ms = 809ms
+  [708] ./~/querystring-es3/decode.js 2.51 kB {4} [built]
+        [] -> factory:340ms building:528ms = 868ms
+  [709] ./~/querystring-es3/encode.js 2.54 kB {4} [built]
+        [] -> factory:340ms building:526ms = 866ms
+  [710] ./~/querystring-es3/index.js 127 bytes {4} [built]
+        [] -> factory:420ms building:381ms = 801ms
+  [711] ./~/querystringify/index.js 1.3 kB {4} [built]
+        [] -> factory:854ms building:501ms = 1355ms
+  [713] ./~/requires-port/index.js 753 bytes {4} [built]
+        [] -> factory:853ms building:503ms = 1356ms
+  [734] ./~/sockjs-client/lib/entry.js 244 bytes {4} [built]
+        [] -> factory:2036ms building:157ms dependencies:2ms = 2195ms
+  [735] ./~/sockjs-client/lib/event/close.js 295 bytes {4} [built]
+        [] -> factory:762ms building:745ms dependencies:2ms = 1509ms
+  [736] ./~/sockjs-client/lib/event/trans-message.js 292 bytes {4} [built]
+        [] -> factory:762ms building:753ms dependencies:2ms = 1517ms
+  [737] ./~/sockjs-client/lib/facade.js 723 bytes {4} [built]
+        [] -> factory:894ms building:524ms dependencies:19ms = 1437ms
+  [738] ./~/sockjs-client/lib/iframe-bootstrap.js 2.9 kB {4} [built]
+        [] -> factory:560ms building:365ms dependencies:888ms = 1813ms
+  [739] ./~/sockjs-client/lib/info-iframe.js 1.52 kB {4} [built]
+        [] -> factory:905ms building:514ms dependencies:6ms = 1425ms
+  [740] ./~/sockjs-client/lib/info-receiver.js 2.22 kB {4} [built]
+        [] -> factory:543ms building:370ms dependencies:597ms = 1510ms
+  [741] ./~/sockjs-client/lib/main.js 11.9 kB {4} [built]
+        [] -> factory:246ms building:369ms dependencies:5ms = 620ms
+  [742] ./~/sockjs-client/lib/shims.js 18.2 kB {4} [built]
+        [] -> factory:539ms building:369ms = 908ms
+  [743] ./~/sockjs-client/lib/transport-list.js 613 bytes {4} [built]
+        [] -> factory:245ms building:348ms = 593ms
+  [744] ./~/sockjs-client/lib/transport/browser/websocket.js 172 bytes {4} [built]
+        [] -> factory:757ms building:824ms dependencies:0ms = 1581ms
+  [745] ./~/sockjs-client/lib/transport/jsonp-polling.js 1.02 kB {4} [built]
+        [] -> factory:724ms building:732ms dependencies:30ms = 1486ms
+  [746] ./~/sockjs-client/lib/transport/lib/buffered-sender.js 2.3 kB {4} [built]
+        [] -> factory:265ms building:448ms dependencies:3ms = 716ms
+  [747] ./~/sockjs-client/lib/transport/lib/polling.js 1.32 kB {4} [built]
+        [] -> factory:265ms building:444ms dependencies:3ms = 712ms
+  [748] ./~/sockjs-client/lib/transport/receiver/eventsource.js 1.58 kB {4} [built]
+        [] -> factory:725ms building:764ms dependencies:4ms = 1493ms
+  [749] ./~/sockjs-client/lib/transport/receiver/htmlfile.js 2.2 kB {4} [built]
+        [] -> factory:724ms building:769ms dependencies:6ms = 1499ms
+  [750] ./~/sockjs-client/lib/transport/receiver/jsonp.js 5.57 kB {4} [built]
+        [] -> factory:718ms building:755ms dependencies:6ms = 1479ms
+  [751] ./~/sockjs-client/lib/transport/sender/jsonp.js 2.46 kB {4} [built]
+        [] -> factory:682ms building:659ms dependencies:2ms = 1343ms
+  [752] ./~/sockjs-client/lib/transport/sender/xhr-fake.js 456 bytes {4} [built]
+        [] -> factory:1203ms building:653ms dependencies:1ms = 1857ms
+  [753] ./~/sockjs-client/lib/transport/websocket.js 2.71 kB {4} [built]
+        [] -> factory:719ms building:707ms dependencies:410ms = 1836ms
+  [754] ./~/sockjs-client/lib/transport/xdr-polling.js 712 bytes {4} [built]
+        [] -> factory:723ms building:735ms dependencies:715ms = 2173ms
+  [755] ./~/sockjs-client/lib/transport/xhr-streaming.js 1.25 kB {4} [built]
+        [] -> factory:719ms building:725ms dependencies:693ms = 2137ms
+  [756] ./~/sockjs-client/lib/utils/browser-crypto.js 438 bytes {4} [built]
+        [] -> factory:644ms building:645ms dependencies:0ms = 1289ms
+  [757] ./~/sockjs-client/lib/utils/escape.js 2.31 kB {4} [built]
+        [] -> factory:756ms building:714ms dependencies:343ms = 1813ms
+  [758] ./~/sockjs-client/lib/utils/log.js 450 bytes {4} [built]
+        [] -> factory:760ms building:745ms dependencies:0ms = 1505ms
+  [759] ./~/sockjs-client/lib/utils/transport.js 1.35 kB {4} [built]
+        [] -> factory:758ms building:743ms dependencies:10ms = 1511ms
+  [760] ./~/strip-ansi/index.js 161 bytes {4} [built]
+        [] -> factory:1602ms building:377ms = 1979ms
+  [761] ./~/ts-helpers/index.js 2.69 kB {4} [built]
+        [] -> factory:1198ms building:131ms dependencies:0ms = 1329ms
+  [762] ./~/url-parse/lolcation.js 1.58 kB {4} [built]
+        [] -> factory:498ms building:337ms dependencies:7ms = 842ms
+  [763] ./~/url/url.js 23.3 kB {4} [built]
+        [] -> factory:29ms building:1631ms = 1660ms
+  [764] ./~/url/util.js 314 bytes {4} [built]
+        [] -> factory:326ms building:95ms = 421ms
+  [765] (webpack)-dev-server/client/socket.js 856 bytes {4} [built]
+        [] -> factory:18ms building:13ms = 31ms
+  [766] (webpack)/buildin/amd-options.js 43 bytes {4} [built]
+        [] -> factory:615ms building:179ms = 794ms
+  [767] (webpack)/buildin/module.js 548 bytes {4} [built]
+        [] -> factory:0ms building:1ms = 1ms
+  [768] (webpack)/hot/emitter.js 77 bytes {4} [built]
+        [] -> factory:1603ms building:377ms = 1980ms
+  [769] ./~/zone.js/dist/long-stack-trace-zone.js 5.49 kB {4} [built]
+        [] -> factory:1194ms building:129ms = 1323ms
+  [770] ./~/zone.js/dist/zone.js 58.2 kB {4} [built]
+        [] -> factory:1193ms building:126ms = 1319ms
+  [772] multi polyfills 40 bytes {4} [built]
+         factory:0ms building:1ms = 1ms
+
+ERROR in ./~/bootstrap-loader/lib/bootstrap.loader.js!./~/bootstrap-loader/no-op.js
+Module not found: Error: Can't resolve '[object Object]./lib\bootstrap.styles.loader.js' in 'C:\Users\Jamie\angular2-webpack-starter\node_modules\bootstrap-loader'
+ @ ./~/bootstrap-loader/lib/bootstrap.loader.js!./~/bootstrap-loader/no-op.js 1:21-1108
+ @ ./~/bootstrap-loader/loader.js
+ @ ./src/vendor.browser.ts
+ @ multi vendor
+Child html-webpack-plugin for "index.html":
+    chunk    {0} index.html 542 kB [entry] [rendered]
+        [0] ./~/lodash/lodash.js 539 kB {0} [built]
+            [] -> factory:853ms building:1109ms = 1962ms
+        [1] (webpack)/buildin/global.js 506 bytes {0} [built]
+            [] -> factory:78ms building:131ms = 209ms
+        [2] (webpack)/buildin/module.js 548 bytes {0} [built]
+            [] -> factory:78ms building:131ms = 209ms
+        [3] ./~/html-webpack-plugin/lib/loader.js!./src/index.html 2.09 kB {0} [built]
+             factory:43ms building:49ms = 92ms
+webpack: bundle is now VALID.
+[default] Ok, 1.594 sec.
+Terminate batch job (Y/N)? 
